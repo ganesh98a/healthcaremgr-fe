@@ -1,0 +1,175 @@
+.cus-app-launcher { 
+    .slds-modal__container {
+        min-height: auto !important;
+    }
+    .slds-m-top_xxx-small {
+        min-height: 20px;
+        .slds-button {
+            display: none;
+        }
+    }
+    .slds-app-launcher__tile-body {
+        padding-top: 1.5rem;
+    }
+    .slds-app-launcher__tile-body a {
+        color: #006dcc !important;
+    }
+    .hide-collapsible {
+        .slds-section__title {
+            display: none;
+        }
+    }
+    .reset {
+        color: #006dcc !important;
+    }
+    .reset:hover {
+        color: #006dcc !important;
+    }
+    .cus-exp-font {
+        .slds-section__title {
+            font-weight: normal;
+            font-size: 0.9rem;
+        }
+    }
+    .cus-slds-ul-flex-content {
+        ul {
+            display: contents !important;
+        }        
+    }
+}
+.cus-slds_dropdown_menu {
+    min-width: 10rem !important;
+}
+.cus-slds-bar-col-crm {
+    border-bottom: 3px solid #992bff;
+}
+.cus-slds-bar-col-recruitment {
+    border-bottom: 3px solid #05adee;
+}
+.cus-slds-bar-col-imail {
+    border-bottom: 3px solid #006dcc;
+}
+.cus-slds-bar-col-admin {
+    border-bottom: 3px solid #080707;
+}
+.cus-slds-bar-col-item {
+    border-bottom: 3px solid #080707;
+}
+.cus-slds-bar-col-finance {
+    border-bottom: 3px solid #464765;
+}
+.cus-slds-bar-col-participant {
+    border-bottom: 3px solid #b175ff;
+}
+.cus-slds-bar-col-schedule {
+    border-bottom: 3px solid #e07196;
+}
+.cus-slds-bar-col-fms {
+    border-bottom: 3px solid #d32f2f;
+}
+.cus-slds-bar-col-organisation {
+    border-bottom: 3px solid #1eb35a;
+}
+.cus-slds-bar-col-member {
+    border-bottom: 3px solid #ff7043;
+}
+
+.slds-is-active-crm {
+    border-top: 3px solid #992bff;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-recruitment {
+    border-top: 3px solid #05adee;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-imail {
+    border-top: 3px solid #006dcc;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-admin {
+    border-top: 3px solid #080707;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-item {
+    border-top: 3px solid #080707;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-finance {
+    border-top: 3px solid #464765;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-participant {
+    border-top: 3px solid #b175ff;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-schedule {
+    border-top: 3px solid #e07196;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-fms {
+    border-top: 3px solid #d32f2f;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-organisation {
+    border-top: 3px solid #1eb35a;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+.slds-is-active-member {
+    border-top: 3px solid #ff7043;
+    animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+}
+
+.moreli {
+    .slds-is-active-crm {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-recruitment {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-imail {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-admin {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-item {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-finance {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-participant {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-schedule {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-fms {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-organisation {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+    .slds-is-active-member {
+        border-top: 0px !important;
+        animation: bkAnim .135s cubic-bezier(.39,.575,.565,1) both
+    }
+}
+@media (min-width: 1200px) {
+    .cus-app-launcher { 
+        .slds-modal__container {
+            width: 70%;
+            z-index: 999999 !important
+        }
+    }
+}

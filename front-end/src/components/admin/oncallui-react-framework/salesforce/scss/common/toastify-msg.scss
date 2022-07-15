@@ -1,0 +1,91 @@
+/* Start Toast */
+
+.Toastify {
+  .Toastify__toast-container {
+    width: 430px;
+    z-index: 99999999;
+    .Toastify__close-button {
+      color: #777;
+      opacity: 1;
+    }
+    .Toastify__toast {
+      text-align: center;
+      padding: 0px 8px;
+    }
+    .Toastify__close-button {
+      margin: 10px;
+      border: 1px solid;
+      border-radius: 100%;
+      min-width: 22px;
+      height: 22px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .Toastify__toast--error {
+      background: #f8d7da;
+      color: #721c24;
+      font-weight: 400;
+      border-radius: 5px;
+      .Toastify__close-button,
+      .Toastify_content__,
+      .Toastify_content__ i,
+      .Toastify_content__ p {
+        color: #ad0000;
+      }
+      .Toastify__close-button {
+        border-color: #ad0000;
+      }
+    }
+    .Toastify__toast--success {
+      color: #155724;
+      background: #38af74;
+      background-color: #38af74;
+      font-weight: 400;
+      border-radius: 5px;
+      .Toastify__close-button,
+      .Toastify_content__,
+      .Toastify_content__ i,
+      .Toastify_content__ p {
+        color: #fff;
+      }
+      .Toastify__close-button {
+        border-color: #fff;
+      }
+    }
+    .Toastify__toast--info {
+      // color: #155724;
+      // background: #38af74;
+      // background-color: #38af74;
+      // font-weight: 400;
+      // border-radius: 5px;
+      .Toastify__close-button,
+      .Toastify_content__,
+      .Toastify_content__ i,
+      .Toastify_content__ p {
+        color: #fff;
+      }
+      .Toastify__close-button {
+        border-color: #fff;
+      }
+    }
+
+    button.Toastify__close-button {
+      position: absolute;
+      top: 0px;
+      right: 0px;
+    }
+  }
+}
+
+.Toastify_content__ {
+  padding: 30px 0;
+  margin-top: 5px;
+  p {
+    font-size: 15px;
+  }
+  i {
+    font-size: 45px;
+  }
+}

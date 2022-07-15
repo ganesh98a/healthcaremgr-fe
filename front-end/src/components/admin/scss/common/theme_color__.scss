@@ -1,0 +1,251 @@
+/***** Color Name and Class define ****/
+/*     1.Blue         (class Name : Blue) 
+                      (Color code: #0033cc)
+                       */
+/*     2.Participant_Module(class Name : Participant_Module) 
+                      (Color code: #663399)
+                       */
+/*     3.Orange       (class Name : Orange) 
+                      (Color code: #ff6600)
+                       */
+/*     4.Schedule_Module(class Name : Schedule_Module) 
+                      (Color code: #cc66cc)
+                       */
+/*     5.Green       (class Name : Green) 
+                      (Color code: #009966)
+                       */
+/*     6.Red_fms         (class Name : Red_fms) 
+                      (Color code: #D32F2F)
+                       */
+/*     6.Gold         (class Name : Gold) 
+                      (Color code: #eda122; bg: #e89c24)
+                       */
+
+
+
+:root {
+  --bg-color: #1e1e1e;
+  --txt-color: #1e1e1e;
+  --b-color: #1e1e1e;
+}
+
+.Blue {
+  --bg-color: #242543;
+  --txt-color: #242543;
+  --b-color: #242543;
+}
+
+.Participant_Module {
+  --bg-color: #b175ff;
+  --txt-color: #b175ff;
+  --b-color: #b175ff;
+  --light-color-background: #b175ff54;
+  --drk-color1: #672ea7;
+  --drk-color2: #6f4dee;
+}
+
+.Orange,
+.Member_Module {
+  --bg-color: #ff7043;
+  --txt-color: #ff7043;
+  --b-color: #ff7043;
+  --light-color-background: #FF704354;
+  --drk-color1: #ee5802;
+  --drk-color2: #ff7043;
+}
+
+.Schedule_Module {
+  --bg-color: #e07196;
+  --txt-color: #e07196;
+  --b-color: #e07196;
+  --light-color-background:#e0719654;
+  --drk-color1: #d04170;
+  --drk-color2: #e07196;
+}
+
+.Green,
+.Org_Module {
+  --bg-color: #1eb35a;
+  --txt-color: #1eb35a;
+  --b-color: #1eb35a;
+  --light-color-background:#1eb35a54;
+}
+
+.Red_fms {
+  --bg-color: #d32f2f;
+  --txt-color: #d32f2f;
+  --b-color: #d32f2f;
+  --light-color-background:#d32f2f54;
+
+}
+
+.Gold {
+  --bg-color: #e89c24;
+  --txt-color: #eda122;
+  --b-color: #e89c24;
+  --light-color-background:#e89c2454;
+
+}
+
+.Gold {
+  --bg-color: #2e9cca;
+  --txt-color: #2e9cca;
+  --b-color: #2e9cca;
+  --light-color-background:#2e9cca54;
+
+}
+
+.Crm {
+  --bg-color: #992bff;
+  --b-color: #992bff;
+  --txt-color: #992bff;
+  --crm-success_color: #be77ff;
+  --crm-Processing_color: #7c00ef;
+  --crm-Rejected_color: #5300a0;
+  --crm-task_priority_high_color: #ffff00;
+  --crm-task_priority_medium_color: #ff8c00;
+  --crm-task_priority_low_color: #ff0000;
+  --light-color-background: #b175ff54;
+  --drk-color4: #7c00ef;
+}
+
+.Finance_M {
+  --bg-color: #464765;
+  --b-color: #464765;
+  --txt-color: #464765;
+  --crm-success_color: #be77ff;
+  --crm-Processing_color: #7c00ef;
+  --crm-Rejected_color: #5300a0;
+  --crm-task_priority_high_color: #ffff00;
+  --crm-task_priority_medium_color: #ff8c00;
+  --crm-task_priority_low_color: #ff0000;
+  --drk-color4: #464765;
+  --drk-color2: #5f6081;
+  --drk-color3: #c1c1c9;
+  --light-color-background: #46476554;
+}
+
+.Helpdesk_M {
+  --bg-color: #005157;
+  --b-color: #005157;
+  --txt-color: #005157;
+}
+
+:root {
+  --drk-color1: #63bae9;
+  --drk-color2: #39a4d1;
+  --drk-color3: #2082ac;
+  --drk-color4: #136283;
+  --drk-color5: #2082ac;
+  --drk-color6: #39a4d1;
+  --crm-task_priority_high_color: #fed77e;
+  --crm-task_priority_medium_color: #05adee;
+  --crm-task_priority_low_color: #ff0000;
+}
+
+.recruitment_module {
+  --bg-color: #05adee;
+  --txt-color: #05adee;
+  --b-color: #05adee;
+  --light_color1: #7ddbff;
+  --light-color2: #72d0f5;
+  --light-color3: #36c7ff;
+  --b-radius: 4px;
+  --light-color-background: #05adee54;
+}
+
+/*==================================================================*/
+/*============|                    Blue                 |===========*/
+/*==================================================================*/
+
+/* Blue */
+.clr1 {
+  color: #777;
+}
+.clr2 {
+  color: #ccc;
+}
+
+
+.clr1 {
+  color: #0342a2;
+}
+.Select-control input:-webkit-autofill,
+.Select-control input:-webkit-autofill:hover,
+.Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #242543 inset;
+}
+
+/* Purple */
+.Participant_Module .clr1 {
+  color: #672ea7;
+}
+.Participant_Module .Select-control input:-webkit-autofill,
+.Participant_Module .Select-control input:-webkit-autofill:hover,
+.Participant_Module .Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #672ea7 inset !important;
+}
+.Participant_Module .clr2 {
+  color: var(--b-color);
+}
+
+/* Orange  */
+.Orange .clr1 {
+  color: #ee5802;
+}
+.Orange .Select-control input:-webkit-autofill,
+.Orange .Select-control input:-webkit-autofill:hover,
+.Orange .Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ff7043 inset !important;
+}
+
+/* Gulabi */
+.Schedule_Module .clr1 {
+  color: #d04170;
+}
+.Schedule_Module .Select-control input:-webkit-autofill,
+.Schedule_Module .Select-control input:-webkit-autofill:hover,
+.Schedule_Module .Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px inset !important;
+}
+.Schedule_Module .clr2 {
+  color: var(--b-color);
+}
+
+/* Green */
+.Green .clr1 {
+  color: #0e966e;
+}
+.Green .Select-control input:-webkit-autofill,
+.Green .Select-control input:-webkit-autofill:hover,
+.Green .Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #09a075 inset !important;
+}
+
+/* Red */
+.Red_fms .clr1 {
+  color: #b10607;
+}
+.Red_fms .Select-control input:-webkit-autofill,
+.Red_fms .Select-control input:-webkit-autofill:hover,
+.Red_fms .Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #d32f2f inset !important;
+}
+
+/* Gold */
+.Gold .clr1 {
+}
+.Gold .Select-control input:-webkit-autofill,
+.Gold .Select-control input:-webkit-autofill:hover,
+.Gold .Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #e89c24 inset !important;
+}
+
+/* Gold */
+.Gold .clr1 {
+}
+.Gold .Select-control input:-webkit-autofill,
+.Gold .Select-control input:-webkit-autofill:hover,
+.Gold .Select-control input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #2e9cca inset !important;
+}

@@ -1,0 +1,84 @@
+{
+  "_from": "pdf-viewer-reactjs",
+  "_id": "pdf-viewer-reactjs@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-mNhTwbnn/KUOmlJv/OVPeGk4kWnLg1U0S8HPZfioCF0OET+e1lA+axUfwKrS7arwZWYPgrz39OJV43hhV+b2DA==",
+  "_location": "/pdf-viewer-reactjs",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "pdf-viewer-reactjs",
+    "name": "pdf-viewer-reactjs",
+    "escapedName": "pdf-viewer-reactjs",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/pdf-viewer-reactjs/-/pdf-viewer-reactjs-1.0.5.tgz",
+  "_shasum": "ffe30f6d59932d03f16efbd6c1ed2f8d73d7f75d",
+  "_spec": "pdf-viewer-reactjs",
+  "_where": "D:\\OCS_repository\\admin\\front-end",
+  "author": {
+    "name": "ansu5555"
+  },
+  "bugs": {
+    "url": "https://github.com/ansu5555/pdf-viewer-reactjs/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "bootstrap": "4.3.1",
+    "jquery": "3.4.1",
+    "material-design-icons": "3.0.1",
+    "popper.js": "1.15.0",
+    "prop-types": "15.6.0",
+    "react": "16.0.0",
+    "react-pdf-js": "2.0.5"
+  },
+  "deprecated": false,
+  "description": "Simple react PDF viewer component with controls based on PDF.js.",
+  "devDependencies": {
+    "babel-preset-es2015-rollup": "3.0.0",
+    "babel-preset-react": "6.16.0",
+    "babel-preset-stage-0": "6.16.0",
+    "rollup-babel-lib-bundler": "3.1.0"
+  },
+  "homepage": "https://github.com/ansu5555/pdf-viewer-reactjs#readme",
+  "keywords": [
+    "pdf",
+    "pdf viewer",
+    "rotate",
+    "rotate pdf",
+    "zoom",
+    "zoom pdf",
+    "react",
+    "reactjs"
+  ],
+  "license": "MIT",
+  "main": "index",
+  "name": "pdf-viewer-reactjs",
+  "peerDependencies": {
+    "react": ">=15.3.2"
+  },
+  "repository": {
+    "url": "git+https://github.com/ansu5555/pdf-viewer-reactjs.git",
+    "type": "git"
+  },
+  "rollupBabelLibBundler": {
+    "moduleName": "pdf-viewer-reactjs",
+    "dest": "dist",
+    "format": [
+      "cjs"
+    ]
+  },
+  "scripts": {
+    "build": "rollup-babel-lib-bundler src/index.js",
+    "prepublish": "npm run build"
+  },
+  "typings": "index",
+  "version": "1.0.5"
+}

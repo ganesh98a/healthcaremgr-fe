@@ -1,0 +1,40 @@
+.slds-list-grp-cus {
+    height: 100% !important;
+    overflow: visible !important;
+    padding: 0 !important;
+
+    .slds-pill__remove {
+        cursor: pointer;
+    }
+}
+
+.combox_box-cc-cus  {
+    .slds-has-inline-listbox-bor {
+        border: 0px !important;
+    }
+
+    .slds-combobox__input {
+        padding: 0px 5px 0px !important;
+    }
+
+    .slds-combobox_container {
+        display: table;
+        width:100%;
+        #combobox-to-contact-selected-listbox {
+            .slds-listbox__item {
+                margin: 2px;
+            }
+            .slds-listbox .slds-listbox {
+                .slds-listbox__item {
+                    margin: 2px;
+                }
+            }
+        }
+
+        .slds-combobox {
+            top: 1px;
+            left: 0;
+            padding: 2px;
+        }
+    }
+}

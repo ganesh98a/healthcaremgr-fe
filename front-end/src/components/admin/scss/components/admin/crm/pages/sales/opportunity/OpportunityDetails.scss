@@ -1,0 +1,90 @@
+
+.SLDSPath {
+    .slds-path__nav .slds-is-lost .slds-path__link, 
+    .slds-path__nav .slds-is-won .slds-path__link {
+        color: white;
+    }
+
+
+}
+.slds {
+    .slds-timeline a {
+        color: #006dcc;
+        font-size: 13px;
+        
+        &:hover {
+            text-decoration: underline !important;
+        }
+    }
+}
+input {
+    height: initial;
+}
+textarea {
+    font-size: 13px;
+    font-weight: normal !important;
+}
+
+.info-alert h2 {
+    color: #fff;
+}
+
+#date_hide .slds-dropdown {
+    position: relative;
+    top: -35px;
+}
+
+.date_clip {
+    overflow-y: scroll;
+    height: 300px;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 5px 10px 0px 10px;
+}
+.date_clip div {
+    margin: 0px 0px 5px 0px;
+}
+
+.sites_clip {
+    overflow-y: scroll;
+    height: 102px;
+    width: auto;
+    border: 1px solid #ccc;
+    padding: 5px 10px 0px 10px;
+}
+.sites_clip div {
+    margin: 0px 0px 5px 0px;
+}
+.slds-datepicker__filter_month h2{
+    font-size: 20px;
+}
+#create_shift {
+    .slds-form-element__control {
+        .tooltip {
+            display: none !important;
+        }
+    }
+}
+.shift_ndis_prie_list {
+    width: 100% !important;
+    margin: 10px auto;
+    // overflow: auto !important;
+}
+.shift_ndis_prie_list .line_item_name, .shift_ndis_prie_list .line_item_code {
+    white-space: initial;
+    height: auto !important;
+}
+.shift-details-hd-bg {
+    background: #f3f2f2;
+    padding: 5px;
+}
+.shift_ndis_prie_list .dt-last_row .rt-resizer{
+    right: -5px !important;
+    width: 5px !important;
+}
+.btn-icon-err {
+    color: red;
+}
+.slds-popover-wrap {
+    white-space: break-spaces;
+}

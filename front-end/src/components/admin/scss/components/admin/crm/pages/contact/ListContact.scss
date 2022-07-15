@@ -1,0 +1,120 @@
+.ListContact {
+    .ListContactActions {
+        a {
+            margin-right: 5px;
+        }
+    }
+}
+
+.add_edit_shift_modal .slds-modal__footer {
+  z-index: 9999
+}
+
+#create_access_role .slds-section {
+  margin-top: 0px;
+}
+#create_access_role .slds-section__content {
+  padding-top: 0px;
+}
+  
+#blue_label {
+  background-color: green;
+  color: #fff;
+}
+  
+#button-group-footer .slds-button__icon {
+  width: auto;
+}  
+
+.slds-tbl-roles .slds-more-action-dropdown.slds-dropdown,
+ .slds-tbl-roles .slds-more-action-dropdown.slds-dropdown {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  max-width: 150px !important;
+  width: 100%;
+  overflow: auto;
+  right: inherit !important;
+  min-width: 150px !important;
+}
+.slds-tbl-roles .rt-tbody,
+.slds-tbl-roles.rt-table{
+  overflow:visible !important;
+}
+.slds-tbl-roles .rt-th, .slds-tbl-roles .rt-td{
+  overflow:visible !important;
+}
+
+.filter-logic-error {
+  color: red
+}
+
+.body-no-padding {
+  padding: 0px;
+  margin: 0px;
+}
+.custom-card-footer {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-size: 0.8125rem;
+}
+.timesheet-total-amount {
+  position: relative;   
+  left: 70%;
+  top: -32px;
+  font-weight: bold;
+}
+.timesheet-list-total-amount {
+  position: relative;
+  left: 19.5%;
+  text-align: center;
+  font-weight: bold;
+  margin: 12px;
+}
+.linkclr a{
+  color:rgb(0, 112, 210);
+}
+.errorsize .filter-logic-error {
+  color: red;
+  font-size: 12px;
+}
+#create_update_user input#react-select-2-input {
+  max-height: 18px;
+}
+.timezoneselect .css-yk16xz-control{
+  min-height:18px !important;
+}
+form.slds_form  .timezoneselect input{
+  max-height: 20px;
+}
+.timezoneselect .css-tlfecz-indicatorContainer{
+  padding:3px !important;
+}
+.singlelineborder div.SLDSReactSelect.Select.has-value{
+  box-shadow: none !important;
+}
+.slds_custom_modal.updateuser_popup .slds-modal__container{
+  width:40%;
+  min-width:400px !important;
+}
+.b_word1{
+  word-wrap: break-word;
+}
+.timezoneselect .css-1rtrksz,
+.timezoneselect .css-1wy0on6 {
+    background: transparent !important;
+}
+.slds-page-header__meta-text {
+    font-size: 12px !important;
+    font-weight: 700;
+}
+.text_area_height_100{
+height: 100px;
+}
+.text_area_height_150{
+  height: 150px;
+  }
+
+  input[type="checkbox"]{
+    border:none;
+  }

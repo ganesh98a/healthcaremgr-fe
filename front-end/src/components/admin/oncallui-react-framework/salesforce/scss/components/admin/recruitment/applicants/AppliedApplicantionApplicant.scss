@@ -1,0 +1,20 @@
+#AppliedApplicantionApplicant {
+    .listing_table {
+        min-width: 100%;
+    }
+}
+
+@media (min-width: 992px) {
+    #AppliedApplicantionApplicant {
+        .listing_table {
+            min-width: 992px;
+
+            .AssignStaff {
+                height: 240px;
+                position: absolute;
+                margin-top: -25px;
+                max-width: 140px;
+            }
+        }
+    }
+}

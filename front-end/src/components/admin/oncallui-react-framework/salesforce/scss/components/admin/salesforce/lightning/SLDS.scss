@@ -1,0 +1,73 @@
+.slds {
+    .slds-input {
+        height: initial;
+        font-size: 13px;
+        font-weight: normal;
+        line-height: 1;        
+    }
+
+    .slds-textarea {
+        font-size: 13px;
+        font-weight: normal !important; // !important was needed because of some troublesome style declaration
+        line-height: 20px;
+        text-align: justify;
+    }
+
+    .slds-button {
+        font-size: 13px;
+    }
+    
+    .slds-page-header__name h1 {
+        line-height: 1;
+        font-size: 1em;
+
+        > span:first-child {
+            font-size: 13px;
+            font-weight: normal;
+        }
+    }
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: inherit;
+        font-size: 1em;
+    }
+}
+
+
+.SLDSSelect.Select.is-focused {
+    outline: 0;
+    border: 1px solid #1589ee;
+    margin-top: -1px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 3px #0070D2;
+    box-shadow: 0 0 3px #0070D2;
+}
+
+.SLDSSelect.Select {
+    .Select-input > input {
+        height: 100%;
+    }
+}
+
+.slds-modal {
+    footer.slds-modal__footer {
+        height: auto;
+        position: static;
+    }
+    header.slds-modal__header {
+        box-shadow: none;
+    }
+}
+
+.width50 {
+    width: 50%;
+}
+
+.slds-modal {
+    footer.slds-modal__footer {
+        height: auto;
+        position: static;
+    }
+    header.slds-modal__header {
+        box-shadow: none;
+    }
+}

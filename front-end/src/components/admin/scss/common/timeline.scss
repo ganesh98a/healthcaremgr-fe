@@ -1,0 +1,143 @@
+
+.time_l_1{display:flex}
+.time_no{width:100px;height:100px;display:inline-flex;justify-content:center;align-items:center;background:var(--crm-Rejected_color);border-radius:var(--border-radius100);font-size:35px;border:10px solid;border-color:var(--bg-color);position:absolute;left:50%;transform:translate(-50%);font-weight:600;color:#fff}
+.time_no_div{width:200px}
+.time_no_div{width:200px;display:inline-flex;justify-content:flex-end;align-items:center;position:relative}
+.line_h{background:var(--bg-color);height:10px;width:25%}
+.time_d_style{background:#fff;border-radius:var(--b-radius);border:10px solid var(--bg-color);padding:10px 15px}
+.time_l_1{position:relative}
+.time_d_1:after{content:'';width:10px;height:100%;background:var(--bg-color);position:absolute;left:95px;z-index:-1;top:0}
+.time_line_parent .line_h{width:100%}
+.time_line_parent .time_d_1:after{left:0}
+.time_line_parent .time_l_1:last-child .time_d_1:after{height:50%}
+.timeline_1 .time_l_1:last-child>.time_d_1:after{/* height:50%;  */    height: 100px;}
+.timeline_1 .time_l_1:first-child .time_d_1:after{top:50px}
+.time_line_parent .time_l_1:first-child .time_d_1::before{content:'';width:10px;height:100%;background:var(--bg-color);position:absolute;left:0;z-index:-1;top:-50%}
+.reminder_icon{border:5px solid;border-color:var(--bg-color);border-radius:11px;display:inline-block;width:56px;height:92px;margin-left:10px;background:#fff}
+.reminder_icon i{display:inline-flex;width:100%;justify-content:center;font-size:9px;color:var(--bg-color)}
+.reminder_icon i:first-child{font-size:33px;margin-top:10px;margin-bottom:18px}
+.call_refer_div i{width:70px;height:70px;background:var(--bg-color);display:inline-flex;justify-content:center;border-radius:var(--border-radius100);font-size:47px;color:#fff;align-items:center}
+.call_refer_div{text-align:center;font-size:15px;font-weight:400}
+.call_refer_div a{font-size:12px}
+.timeline_h{text-align:center;font-size:17px;font-weight:400;margin-bottom:10px}
+.time_txt .task_table_footer a:first-child{border-color:#1e1e1e}
+.time_txt .task_table_footer a{border-left:0;border-right:1px solid;padding-left:15px;padding-right:15px}
+.time_txt .task_table_footer span{padding-left:15px}
+.time_txt .task_table_footer{justify-content:center}
+.time_d_1{padding-bottom:15px;padding-top:15px}
+.time_line_date{text-align:right;font-weight:400;font-size:14px}
+.reminder_icon a{display:inline-block;width:100%}
+.time_txt .task_table_footer{font-size:15px;font-weight:400}
+.timeline1_h{font-size:17px;font-weight:400}
+.timeline1_sub{font-size:14px;font-weight:400}
+.time_d_2 .panel{background:0 0;border:0; box-shadow:none;}
+.v4-2_ .timeline_h{margin:0;color:#fff}
+.v4-2_ .timeline_h span{font-weight:600}
+.task_table_v4-1__{padding:5px 15px}
+.t_t_v4-1{display:flex;justify-content:space-between;align-items:center}
+.t_t_v4-1a{display:inline-flex}
+.ci_btn,a.ci_btn{min-width:92px;text-align:center;background:#000;color:#fff;font-size:13px;display:inline-flex;align-items:center;justify-content:center;min-height:28px;border-radius:var(--b-radius);margin-right:15px;border:0}
+a.ci_btn{cursor:pointer}
+.ci_date{font-size:13px;display:inline-flex;align-items:center;color:#1e1e1e}
+.t_t_v4-1b,.t_t_v4-1b a{display:flex;font-size:14px;color:var(--txt-color)}
+.t_t_v4-1b a{text-decoration:underline!important}
+.t_t_v4-1b span{margin:0 5px}
+
+
+.Version_timeline_4 .time_line_parent .time_d_1:after{background:url(/assets/images/admin/dotted_intake.svg);background-size:9px;background-repeat:round;left:94px;top:-18px}
+.Version_timeline_4 .time_line_parent .time_d_style{border-color:#dec3f8}
+.Version_timeline_4.timeline_1 .time_line_parent .time_l_1:first-child .time_d_1:after{top:-18px}
+.Version_timeline_4 .time_line_parent .time_no{width:70px;height:70px;border:7px solid;font-size:26px;border-color:#dec3f8;background:#fff;color:var(--b-color);margin:20px}
+.Version_timeline_4 .time_line_parent .line_h{background:#dec3f8;width:50%;margin:50px 0}
+.Version_timeline_4 .time_line_parent .time_l_1:first-child .time_d_1::before{display:none}
+.Version_timeline_4.timeline_1>.time_l_1:last-child>.time_d_1:after{height:auto}
+.Version_timeline_4.timeline_1>.time_l_1>.time_no_div{align-items:flex-start;width:150px}
+.Version_timeline_4.timeline_1>.time_l_1>.time_no_div .line_h{margin-top:50px}
+.Version_timeline_4 .time_d_1{width:700px}
+.Version_timeline_4 .time_line_parent .time_no_div{align-items:flex-start}
+.Version_timeline_4.timeline_1>.time_l_1>.time_no_div>.time_no{border-radius:var(--b-radius);transform:rotate(225deg);left:70px;top:26px;width:60px;height:60px;border:10px solid;border-color:var(--b-color);background:#fff;color:var(--b-color);font-size:27px}
+.Version_timeline_4.timeline_1>.time_l_1>.time_no_div>.time_no span{transform:rotate(135deg)}
+.Version_timeline_4 .time_d_1:after{top:30px}
+.Version_timeline_4 .v4_panel_title_ .collapsed .timeline_h i:before{content:"\68"}
+.Version_timeline_4 .time_d_style.v4-1_{padding:0}
+.Version_timeline_4 .time_d_1:after,.Version_timeline_4 .time_d_style.v4-1_ .panel-heading,.Version_timeline_4.timeline_1>.time_l_1>.time_no_div .line_h{background:var(--b-color); border-radius: 0;}
+.Version_timeline_4 .time_d_style{border-color:var(--b-color)}
+.Version_timeline_4 .time_d_style{border:8px solid var(--bg-color)}
+
+
+.V4_int_cont1__{/* min-height:90px */ margin-bottom: 5px;}
+.Version_timeline_4 .time_line_parent .task_table_footer{padding-top:7px;justify-content:flex-end;min-height:26px}
+.V4_int_cont1b__{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:flex-start;align-content:flex-start; flex:1}
+.V4_int_cont1a__{flex:1}
+.v4_btn_size1__{display:flex; align-items: flex-end;}
+.v4_btn_size1__ .btn-3{font-size:13px}
+.V4_int_cont1__{display:flex;justify-content:space-between}
+.V4_int_cont1a__ .timeline_h{margin:0;text-align:left;font-size:15px}
+
+
+.datepicker_my{
+    .react-datepicker__day--selected,
+    .react-datepicker__day--in-selecting-range,
+    .react-datepicker__day--in-range {
+      background: var(--bg-color);
+    }
+    .react-datepicker__navigation--previous {
+      border-right-color: #fff;
+    }
+    .react-datepicker__navigation--next {
+      border-left-color: #fff;
+    }
+    .react-datepicker__time-container {
+      position: absolute;
+      right: -70px;
+    }
+    .react-datepicker__time-container
+      .react-datepicker__time
+      .react-datepicker__time-box
+      ul.react-datepicker__time-list
+      li.react-datepicker__time-list-item {
+      padding: 0 5px;
+      font-size: 11px;
+      display: flex;
+      align-items: center;
+    }
+    .react-datepicker__time-container
+      .react-datepicker__time
+      .react-datepicker__time-box
+      ul.react-datepicker__time-list
+      li.react-datepicker__time-list-item--selected:hover,
+    .react-datepicker__time-container
+      .react-datepicker__time
+      .react-datepicker__time-box
+      ul.react-datepicker__time-list
+      li.react-datepicker__time-list-item--selected {
+      background-color: var(--bg-color) !important;
+    }
+    .react-datepicker__time-container .react-datepicker__time {
+      border: solid 1px #aeaeae;
+      overflow: hidden;
+    }
+    .react-datepicker__time-container
+      .react-datepicker__time
+      .react-datepicker__time-box
+      ul.react-datepicker__time-list
+      li.react-datepicker__time-list-item:hover {
+      background-color: var(--bg-color);
+      color: #fff;
+    }
+    .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle,
+    .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+      border-bottom-color: var(--bg-color);
+    }
+    .react-datepicker__time-list {
+      height: 200px !important;
+    }
+    .react-datepicker__navigation--next--with-time:not(.react-datepicker__navigation--next--with-today-button) {
+      right: 10px;
+    }
+    .react-datepicker__current-month,
+    .react-datepicker-time__header {
+      font-size: 12px;
+    }
+  }
+  

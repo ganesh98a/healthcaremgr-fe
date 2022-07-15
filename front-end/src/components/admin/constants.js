@@ -1,0 +1,1 @@
+export const fields_warning = "Dynamic variables will be auto removed if the total SMS character count exceeds 160"

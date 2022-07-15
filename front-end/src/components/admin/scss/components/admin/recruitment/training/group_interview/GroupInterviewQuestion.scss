@@ -1,0 +1,10 @@
+a#GroupInterviewQuestion-preview_form {
+    font-size: 12px;
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: underline !important;
+
+    &:hover {
+        text-decoration: none !important;
+    }
+}

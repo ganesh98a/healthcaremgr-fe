@@ -1,0 +1,18 @@
+.slds-custom-notification-container {
+    top: 3.5rem;
+    right: 1.25rem;
+}
+
+#cus-header-notifications-popover {
+    background-color: transparent !important;
+    box-shadow:  none;
+    border: none;
+
+    .slds-popover__close {
+        display: none;
+    }
+}
+
+.view-all-div {
+    text-align: center;
+}

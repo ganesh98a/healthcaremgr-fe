@@ -1,0 +1,166 @@
+@mixin module-menu-colors {
+    &.module-menu-participant.active {
+        > div {
+            background-color: #b175ff;
+        }
+    }
+    &.module-menu-organisation.active {
+        > div {
+            background-color: #1eb35a;
+        }
+    }
+    &.module-menu-participant-intake.active {
+        > div {
+            background-color: #992bff;
+        }
+    }
+    &.module-menu-fms.active {
+        > div {
+            background-color: #d32f2f;
+        }
+    }
+    &.module-menu-imail.active {
+        > div {
+            background-color: #2e9cca;
+        }
+    }
+    &.module-menu-members.active {
+        > div {
+            background-color: #ff7043;
+        }
+    }
+    &.module-menu-schedule.active {
+        > div {
+            background-color: #e07196;
+        }
+    }
+    &.module-menu-recruit.active {
+        > div {
+            background-color: #05adee;
+        }
+    }
+    &.module-menu-admin.active {
+        > div {
+            background-color: #242543;
+        }
+    }
+    &.module-menu-finance.active {
+        > div {
+            background-color: #464765;
+        }
+    }
+    &.module-menu-helpdesk.active {
+        > div {
+            background-color: #005157;
+        }
+    }
+}
+
+nav#GlobalMenu {
+    ul {
+        li {
+            padding-left: 15px;
+            a {
+                color: white;
+                padding: 7px 0;
+                display: inline-block;
+            }
+
+            .drpHdng {
+                cursor: pointer;
+                padding: 0;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                position: relative;
+                justify-content: space-between;
+
+                > i {
+                    padding: 7px 10px;
+                }
+            }
+
+            ul {
+                padding-left: 0;
+            }
+        }
+    }
+
+    > ul {
+        > li {
+            &.module-menu {
+                padding-left: 0;
+
+                > div:hover {
+                    background-color: black;
+                }
+
+                > ul {
+                    padding-left: 10px;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+    // Module colors hardcoded here
+    // If you need colors to be dynamic, add an 'embedded css' in the <head> tag
+    // (Google was 'embedded css' means!)
+
+    .module-menu {
+        // default color is light grey, color becomes full white when hovered or in current page
+        > ul li a {
+            color: darken(white, 20%);
+            &:hover, &.active {
+                color: white;
+            }
+        }
+        &.module-menu.active {
+            > div > a {
+                color: white;
+            }
+        }
+
+        @include module-menu-colors()
+    }
+
+}
+
+#GlobalMenu.theme-light {
+    background-color: white;
+
+    ul {
+        li {
+            a {
+                color: black;
+            }
+
+            .drpHdng {
+                > i {
+                    color: lighten(black, 33%);
+                }
+            }
+        }
+    }
+
+    > ul {
+        > li {
+            &.module-menu {
+                > div:hover {
+                    background-color: rgb(221, 221, 221);
+                }
+
+                > ul li a {
+                    color: lighten(black, 33%);
+
+                    &:hover, &.active {
+                        color: black;
+                    }
+                }
+
+            }
+
+            @include module-menu-colors()
+        }
+    }
+}

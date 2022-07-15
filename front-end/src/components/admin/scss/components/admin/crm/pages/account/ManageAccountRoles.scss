@@ -1,0 +1,21 @@
+.ManageAccountRoles {
+    .SLDSEditableTable {
+        table {
+            table-layout: fixed;
+            
+            thead {
+                th {
+                    width: 30%;
+                }
+    
+                th:first-child {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+
+.org-child-badge-current {
+    display: inline !important;
+}

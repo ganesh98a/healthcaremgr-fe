@@ -1,0 +1,244 @@
+.search_bar {
+  padding-left: 0;
+  position: relative;
+  .input_search input {
+    font-weight: 300 !important;
+    font-size: 20px;
+  }
+  & .srch-inp,
+  & .srch-inp:focus {
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    border: solid 1px var(--bg-color);
+    border-radius: var(--b-radius);
+    font-size: 18px;
+    outline: none;
+  }
+  & button span {
+    color: var(--txt-color);
+  }
+  &.left .srch-inp {
+    padding-left: 50px;
+  }
+  &.right .srch-inp {
+    padding-right: 50px;
+    padding-left: 15px;
+  }
+  & i {
+    position: absolute;
+    margin-top: 10px;
+    font-size: 20px;
+    color: var(--bg-color);
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  &.left i {
+    left: 20px;
+  }
+
+  &.right i {
+    right: 20px;
+  }
+  & .input_search input {
+    border-color: var(--b-color);
+    border-radius: var(--b-radius);
+  }
+  &.navbar_search {
+    margin: 0 auto;
+    width: 500px;
+    max-width: 100%;
+  }
+
+  &.navbar_search input,
+  &.navbar_search input:focus {
+    background: transparent;
+    border: solid 1px #fff;
+    color: #fff;
+    height: 40px;
+    font-size: 15px;
+  }
+  &.navbar_search input::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  &.navbar_search input:focus::-webkit-input-placeholder {
+    color: #fff;
+  }
+
+  &.navbar_search i {
+    color: #fff;
+    margin-top: 10px;
+  }
+  & .input_search input {
+    background: var(--bg-color);
+    background-color: var(--bg-color);
+  }
+  & .input_search input {
+    background: #fff !important;
+    background-color: #fff !important;
+    font-family: sans-serif !important;
+  }
+  & .input_search input {
+    border: 1px solid #1e1e1e;
+  }
+  & button {
+    margin: 0px;
+    padding: 0px !important;
+    border-radius: 0px !important;
+    background: transparent;
+    box-shadow: 0px 0px 0 !important;
+    border-width: 0;
+    position: absolute;
+    margin-left: 15px;
+    z-index: 2;
+    outline: none;
+    top: 50%;
+    right: 0;
+    transform: translate(-50%, -50%);
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+    i {
+      right: -10px !important;
+      top: 50% !important;
+      transform: translate(-50%, -50%);
+      margin-top: 0px;
+    }
+  }
+  .input_search .icon-search:before {
+    font-size: 30px;
+    line-height: 100%;
+    display: flex;
+  }
+  .input_search {
+    width: 100%;
+  }
+  .input_search input {
+    height: 50px;
+    padding: 0px 50px;
+    outline: none;
+    padding-left: 25px;
+    line-height: normal;
+    display: flex !important;
+    align-items: center;
+  }
+}
+.search_bar_small {
+  &.input_search input {
+    border-radius: var(--b-radius);
+  }
+
+  & button {
+    margin: 0px;
+    padding: 0px !important;
+    border-radius: 0px !important;
+    background: transparent;
+    box-shadow: 0px 0px 0 !important;
+    border-width: 0;
+    position: absolute;
+    left: 10px;
+    z-index: 2;
+    top: 50%;
+    transform: translate(0, -50%);
+    outline: none;
+  }
+  &.input_search {
+    width: 100%;
+    position: relative;
+  }
+  &.input_search input {
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 50px;
+    outline: none;
+  }
+}
+
+.input_search.change_b {
+  background-clip: initial;
+  background-origin: initial;
+}
+.input_search button {
+  margin-top: 5px;
+  margin: 0px;
+  padding: 0px !important;
+  border-radius: 0px !important;
+  background: transparent;
+  box-shadow: 0px 0px 0 !important;
+  border-width: 0;
+  position: absolute;
+  right: 0px;
+  z-index: 2;
+  top: 50%;
+  transform: translate(0, -50%);
+  outline: none;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input_search input {
+  height: 50px;
+  line-height: 50px;
+  padding: 10px 50px;
+  outline: none;
+}
+.input_search input {
+  border-radius: var(--b-radius);
+}
+
+.table_search_new {
+  & button {
+    top: 5px;
+  }
+
+  & {
+    position: relative;
+  }
+  & button {
+    top: 0;
+    right: 0;
+  }
+  & button {
+    display: flex;
+    padding: 4px 10px 0px;
+  }
+  & input {
+    padding-right: 35px;
+  }
+  & button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    background: none;
+    border: 0;
+    padding: 0px;
+  }
+  & button span {
+    font-size: 21px;
+  }
+  & button span {
+    color: var(--txt-color);
+  }
+}
+.actionSrch_st {
+  & .srch-inp,
+  & .srch-inp:focus {
+    font-size: 13px;
+  }
+  &:before {
+    position: absolute;
+    left: 10px;
+    margin-top: 9px;
+  }
+
+  & .srch-inp {
+    border: solid 1px #000;
+  }
+  & i {
+    color: #000;
+  }
+}

@@ -1,0 +1,498 @@
+// React Select Plus 1
+
+.is-searchable .Select-input input {
+  border-radius: 0px;
+  padding-left: 7px !important;
+}
+.Select-placeholder {
+  top: 2px !important;
+}
+.Select-placeholder,
+.Select-value-label {
+  font-size: 14px;
+  font-weight: 300 !important;
+  color: #fff !important;
+}
+.Select-input {
+  background: none !important;
+  overflow: hidden;
+}
+div.Select-control {
+  height: 40px;
+  border: 1px solid #1e1e1e;
+  background: #1e1e1e;
+}
+.Select-arrow {
+  border-color: #fff transparent transparent !important;
+  border-style: solid;
+  border-width: 12px 9px 2.5px !important;
+  display: inline-block;
+  height: 9px;
+  width: 0;
+  position: absolute !important;
+  top: 14px;
+  right: 13px;
+}
+.Select.is-open > .Select-control .Select-arrow {
+  border-color: transparent transparent #fff !important;
+  border-width: 0 9px 12px !important;
+  position: absolute !important;
+  top: 12px !important;
+  right: 13px !important;
+}
+.Select-value-label {
+  color: #fff !important;
+}
+.Select-menu-outer {
+  border-radius: var(--border-radius15) !important;
+  overflow: hidden !important;
+  font-size: 14px !important;
+  font-weight: 300 !important;
+}
+.Select-arrow,
+.Select.is-open > .Select-control .Select-arrow {
+  border-width: 0px !important;
+}
+.Select-arrow::before {
+  content: "\66";
+  font-family: "icons_me";
+  border-width: 0px;
+  top: -3px;
+  position: absolute;
+  margin-left: -15px;
+  color: #fff;
+  font-size: 14px;
+}
+.Select.is-open > .Select-control .Select-arrow::before {
+  content: "\68";
+  font-family: "icons_me";
+  border-width: 0px;
+  top: -3px;
+  position: absolute;
+  margin-left: -15px;
+  color: #fff;
+  font-size: 14px;
+}
+
+div.Select.Select--single .Select-control,
+div.Select .Select-control,
+div.Select.is-focused > .Select-control,
+div.Select.is-open > .Select-control,
+div.Select.is-focused:not(.is-opne) > .Select-control {
+  background: var(--bg-color);
+  background-color: var(--bg-color);
+}
+.Select-control .Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  left: 50% !important;
+  top: 50% !important;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  height: 32px;
+  line-height: 32px;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.Select-placeholder,
+.Select--single > .Select-control .Select-value {
+  max-width: calc(100% - 25px);
+  width: calc(100% - 25px);
+  padding-right: 25px !important;
+}
+.Select--single > .Select-control .Select-value .Select-value-label {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  padding-right: 7px;
+  padding-left: 10px;
+}
+.Select--multi .Select-multi-value-wrapper {
+  width: 100%;
+}
+.Select--single > .Select-control .Select-value .Select-value-label {
+  align-content: center; /* display: flex;  */
+  justify-content: center;
+  align-items: center;
+}
+.Select-input > input,
+.Select-input {
+  width: 100% !important;
+}
+.Select--single .Select-control,
+.Select.is-focused > .Select-control,
+.Select.is-open > .Select-control,
+.Select.is-focused:not(.is-opne) > .Select-control {
+  border-radius: var(--b-radius);
+}
+
+// React Select Plus 2
+@mixin afterselect {
+  content: "hrs" !important;
+  font-family: sans-serif !important;
+  position: inherit !important;
+  margin: 0px !important;
+  padding: 0px !important;
+  top: -4px !important;
+  left: 7px !important;
+  font-size: 14px;
+  color: #fff;
+}
+@mixin afterselectmin {
+  content: "min" !important;
+}
+
+.modify_select {
+  .Select--multi .Select-control,
+  .Select--single .Select-control,
+  .Select.is-focused > .Select-control,
+  .Select.is-open > .Select-control,
+  .Select.is-focused:not(.is-opne) > .Select-control {
+    background: #fff;
+    background-color: #fff;
+  }
+  .default_validation .Select-control .Select-multi-value-wrapper .Select-input input {
+    color: #1e1e1e;
+  }
+  .Select-control {
+    background: #fff;
+    background-color: #fff;
+    font-family: sans-serif;
+    border-color: var(--b-color);
+    border-radius: var(--b-radius);
+  }
+  .Select .Select-control {
+    border-radius: var(--b-radius);
+  }
+
+  .Select-control .Select-input {
+    width: 100%;
+  }
+  .Select-control .Select-input > input {
+    width: 100% !important;
+  }
+  .Select.is-searchable.Select--single .Select-control {
+    background: #fff !important;
+  }
+  .Select-arrow::before {
+    content: "\33" !important;
+    font-family: "icons_me" !important;
+    border-width: 0px;
+    top: -7px;
+    position: absolute;
+    margin-left: -21px;
+    color: #1e1e1e;
+    font-size: 22px;
+    color: var(--txt-color);
+  }
+  .Select.is-open > .Select-control .Select-arrow::before {
+    content: "\33" !important;
+    font-family: "icons_me" !important;
+    border-width: 0px;
+    top: -5px;
+    position: absolute;
+    margin-left: -21px;
+    color: #1e1e1e;
+    font-size: 22px;
+    color: var(--txt-color);
+  }
+  .Select-placeholder {
+    color: #cacaca !important;
+    text-align: left;
+    padding-left: 15px;
+  }
+  .Select-value-label {
+    color: #1e1e1e !important;
+  }
+  .is-clearable .Select-clear-zone {
+    width: 24px;
+    text-align: left;
+  }
+
+  &.left_text_select {
+    .Select-menu-outer {
+      div {
+        text-align: center;
+        justify-content: center;
+      }
+    }
+    .Select-control {
+      display: grid;
+      grid-template-columns: 40px 1fr;
+      .Select-arrow-zone {
+        grid-row: 1;
+        grid-column: 1;
+        width: 40px;
+        background: var(--bg-color);
+      }
+      .Select-multi-value-wrapper {
+        grid-column: 2;
+      }
+      .Select-arrow {
+        position: inherit !important;
+        &::before {
+          @include afterselect;
+        }
+      }
+    }
+    .Select.is-open > .Select-control .Select-arrow {
+      &::before {
+        @include afterselect;
+      }
+    }
+    .Select-placeholder {
+      padding-left: 77px;
+    }
+
+    &.title_minit {
+      .Select-control {
+        .Select-arrow {
+          &::before {
+            @include afterselectmin;
+          }
+        }
+      }
+      .Select.is-open > .Select-control .Select-arrow {
+        &::before {
+          @include afterselectmin;
+        }
+      }
+    }
+  }
+}
+
+.text_left_modify_select {
+  .Select-value-label {
+    text-align: left;
+  }
+}
+
+// React Select Plus 3
+.filter_select {
+  .Select-control {
+    background: #ccc !important;
+    border: 1px solid #ccc !important;
+    color: #1e1e1e !important;
+  }
+  .Select-placeholder {
+    color: #1e1e1e !important;
+    font-size: 18px !important;
+  }
+  .Select-arrow::before,
+  .Select.is-open > .Select-control .Select-arrow::before {
+    color: #1e1e1e;
+  }
+  .Select-value-label {
+    color: var(--txt-color) !important;
+  }
+  .Select-value-label {
+    font-size: 18px !important;
+  }
+}
+
+// React Select Plus 4
+.box_wide {
+  .Select--single > .Select-control .Select-value .Select-value-label {
+    padding-left: 0;
+    font-weight: 600 !important;
+  }
+  .Select-placeholder,
+  .Select-value-label {
+    font-size: 11px !important;
+  }
+  .Select-input,
+  .Select-control,
+  .Select-value-label,
+  .Select-value {
+    height: 20px;
+    line-height: 18px;
+    font-size: 11px !important;
+  }
+  .Select-placeholder {
+    height: 20px;
+    line-height: 15px;
+  }
+  .Select-arrow {
+    border-width: 7px 6px 2.5px !important;
+    top: 8px !important;
+    right: 7px !important;
+  }
+  .Select.is-open > .Select-control .Select-arrow {
+    border-width: 0px 6px 7px !important;
+    top: 8px !important;
+    right: 7px !important;
+  }
+  .Select-control,
+  .Select-menu-outer {
+    border-radius: 4px !important;
+  }
+  .Select-arrow,
+  .Select.is-open > .Select-control .Select-arrow {
+    border-width: 0px !important;
+  }
+  .Select-arrow::before {
+    content: "\66";
+    font-family: "icons_me";
+    border-width: 0px;
+    top: -3px;
+    position: absolute;
+    margin-left: -15px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .Select.is-open > .Select-control .Select-arrow::before {
+    content: "\68";
+    font-family: "icons_me";
+    border-width: 0px;
+    top: -3px;
+    position: absolute;
+    margin-left: -15px;
+    color: #fff;
+    font-size: 14px;
+  }
+  .Select-arrow::before,
+  .Select.is-open > .Select-control .Select-arrow::before {
+    top: -7px;
+    margin-left: -12px;
+    font-size: 10px;
+  }
+}
+
+// React Select Plus 5
+.header_filter {
+  .Select-control .Select-input,
+  .Select-control .Select-input {
+    padding-right: 30px;
+  }
+  .Select-control {
+    height: 35px;
+    border-radius: var(--b-radius);
+  }
+  .Select-menu-outer .Select-option {
+    display: flex;
+  }
+  .Select-menu-outer .h_ser_div {
+    display: inline-flex;
+    width: 60px;
+  }
+  span.add_access {
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    margin: 0px auto;
+    vertical-align: middle;
+    font-size: 25px;
+    font-family: sans-serif;
+    border-radius: var(--border-radius100);
+    font-weight: 600;
+    color: #fff;
+    opacity: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+  }
+  .Select-control {
+    height: 35px;
+    line-height: 27px;
+  }
+  .Select-control .Select-placeholder {
+    text-align: left;
+  }
+}
+
+// React Select Plus 6
+.select_multi_value__ .Select .Select-control,
+.select_multi_value__ div.Select.is-open > .Select-control {
+  background: #fff;
+}
+
+.set_select_small {
+  div.Select-control {
+    height: 30px !important;
+    border: 0px solid;
+  }
+  .Select-arrow::before,
+  .Select.is-open > .Select-control .Select-arrow::before {
+    font-size: 10px !important;
+  }
+  .Select--single > .Select-control .Select-value,
+  .Select-input,
+  .Select-placeholder {
+    height: 30px !important;
+    line-height: 30px !important;
+  }
+  .Select-arrow::before {
+    top: -6px;
+    margin-left: -6px;
+  }
+  .Select.is-open > .Select-control .Select-arrow::before {
+    margin-left: -10px;
+  }
+}
+
+.set_select_small {
+  &.req_s1 {
+    div.Select-control {
+      height: 20px !important;
+    }
+    .Select--single > .Select-control .Select-value,
+    .Select-input,
+    .Select-placeholder {
+      height: 20px !important;
+      line-height: 20px !important;
+    }
+    .Select-arrow::before {
+      top: -8px;
+      margin-left: -6px;
+    }
+    .Select.is-open > .Select-control .Select-arrow::before {
+      margin-left: -5px;
+      top: -7px;
+    }
+    .Select-arrow::before,
+    .Select.is-open > .Select-control .Select-arrow::before {
+      font-size: 9px !important;
+    }
+  }
+}
+
+.sLT_gray.week_shifts_show_select {
+  div.Select .Select-control,
+  div.Select.is-focused > .Select-control,
+  div.Select.is-open > .Select-control,
+  div.Select.is-focused:not(.is-opne) > .Select-control {
+    background: #fff;
+    background-color: #fff;
+  }
+  .Select-menu-outer {
+    max-height: 700px !important;
+  }
+  .Select-menu {
+    max-height: 700px !important;
+  }
+}
+
+
+.fixed_drop_down_issue_inputrenderer{
+  .Select-arrow-zone{
+  &::after{
+    content: '';
+    position: absolute;
+    top: 0px;
+    left: -700%;
+    width: 800%;
+    height: 40px;
+    // background: #000;
+  }
+  }
+}

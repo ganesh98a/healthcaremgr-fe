@@ -1,0 +1,5 @@
+@media print {
+  .slds-radio [type="radio"]:checked + .slds-radio__label .slds-radio_faux:after {
+    box-shadow: 0 0 0 1000px #00695C inset !important;
+  }
+}

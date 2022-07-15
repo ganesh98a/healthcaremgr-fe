@@ -1,0 +1,99 @@
+.slds_quesAns_box__ {
+    width: calc(100% - 260px);
+    border: solid 1px #ccc;
+    padding: 15px;
+    border-radius: var(--b-radius);
+    min-height: auto;
+    background: #fff;
+    padding-bottom: 10px;
+    & h4 {
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+  }
+  
+  .radio_F1 .checkround {
+      border-color: #ccc !important;
+  }
+
+.slds-ma-wxh .slds-button {
+	width: 26px;
+	height: 25px;
+}
+
+.chk_bx_Des [type="checkbox"] {
+	width: 1px;
+	height: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	pointer-events: auto;
+}
+.chk_bx_Des .form-checkbox-quest{
+	width: 1rem;
+	height: 1rem;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	border: 1px solid #dddbda;
+	border-radius: 0.125rem;
+	background: white;
+	transition: border 0.1s linear, background-color 0.1s linear;
+}
+.chk_bx_Des [type="checkbox"]:checked + .form-checkbox-quest::after{
+    display: block;
+    content: '';
+    height: 0.25rem !important;
+    width: 0.5rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+    border-bottom: 2px solid #0070d2;
+    border-left: 2px solid #0070d2;
+  }
+  
+.radio_bx_Des [type="radio"] {
+	width: 1px;
+	height: 1px;
+	border: 0;
+	clip: rect(0 0 0 0);
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	pointer-events: auto;
+}
+  .radio_bx_Des .form-radio-quest {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    border: 1px solid #dddbda;
+    border-radius: 50%;
+    background: white;
+    transition: border 0.1s linear, background-color 0.1s linear;
+  }
+
+  .radio_bx_Des [type="radio"]:checked + .form-radio-quest::after {
+    width: 0.5rem;
+    height: 0.5rem;
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0);
+    border-radius: 50%;
+    background: #0070d2;
+  }
+
+  .question-lh {
+    line-height: 15px;
+  }
+  .question-2h {
+    line-height: 21px;
+  }

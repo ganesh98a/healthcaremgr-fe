@@ -1,0 +1,581 @@
+// DANGER:
+// If you need a different theme, provide your own class name and extend this styling by creating your own scss declarations!
+// Also if possible, avoid using !important
+.SLDSReactTable.ReactTable {
+
+    .slds-table .rt-th,
+    .slds-table .rt-td{
+        padding:0.25rem 0.5rem;
+        white-space:nowrap;
+        position:relative;
+    }
+    .slds-table .rt-th{
+        font-weight:400;
+    }
+    .slds-table .rt-th:focus{
+        outline:0;
+    }
+    .slds-table .rt-thead .rt-th{
+        background-color:#fafaf9;
+        color:#514f4d;
+        padding:0.25rem 0.5rem;
+        font-weight:700;
+        line-height:normal;
+    }
+    .slds-table:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover, 
+    .slds-table:not(.slds-no-row-hover) .rt-tbody .rt-tr:focus{
+        outline:0;
+    }
+    .slds-table:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover > .rt-td,
+    .slds-table:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover > .rt-th, 
+    .slds-table:not(.slds-no-row-hover) .rt-tbody .rt-tr:focus > .rt-td,
+    .slds-table:not(.slds-no-row-hover) .rt-tbody .rt-tr:focus > .rt-th{
+        background-color:#f3f2f2;
+    }
+    .slds-table .rt-tbody .rt-tr.slds-is-selected > .rt-td,
+    .slds-table .rt-tbody .rt-tr.slds-is-selected > .rt-th, 
+    .slds-table:not(.slds-no-row-hover) .rt-tr.slds-is-selected:hover > .rt-td,
+    .slds-table:not(.slds-no-row-hover) .rt-tr.slds-is-selected:hover > .rt-th{
+        background-color:#ecebea;
+    }
+    .slds-table .rt-tbody .rt-tr.slds-is-selected a, 
+    .slds-table:not(.slds-no-row-hover) .rt-tr.slds-is-selected:hover a{
+        color:#00396b;
+    }
+    .slds-table .rt-tbody .rt-tr{
+        counter-increment:row-number;
+    }
+    .slds-table .rt-th:focus,
+    .slds-table [role=gridcell]:focus{
+        outline:0;
+    }
+    .slds-table .rt-th:focus,
+    .slds-table .rt-th.slds-has-focus,
+    .slds-table [role=gridcell]:focus,
+    .slds-table [role=gridcell].slds-has-focus{
+        -webkit-box-shadow:#0070d2 0 0 0 1px inset;
+                box-shadow:#0070d2 0 0 0 1px inset;
+    }
+    .slds-table .rt-th:active,
+    .slds-table [role=gridcell]:active{
+        -webkit-box-shadow:none;
+                box-shadow:none;
+    }
+    .slds-table_cell-buffer .rt-tr > .rt-th:first-child,
+    .slds-table_cell-buffer .rt-tr > .rt-td:first-child,
+    .slds-table--cell-buffer .rt-tr > .rt-th:first-child,
+    .slds-table--cell-buffer .rt-tr > .rt-td:first-child{
+        padding-left:1.5rem;
+    }
+    .slds-table_cell-buffer .rt-tr > .rt-th:last-child,
+    .slds-table_cell-buffer .rt-tr > .rt-td:last-child,
+    .slds-table--cell-buffer .rt-tr > .rt-th:last-child,
+    .slds-table--cell-buffer .rt-tr > .rt-td:last-child{
+        padding-right:1.5rem;
+    }
+
+    .slds-table_bordered .rt-thead > .rt-tr + .rt-tr > .rt-th,
+    .slds-table--bordered .rt-thead > .rt-tr + .rt-tr > .rt-th{
+        border-top:1px solid #dddbda;
+    }
+    .slds-table_bordered .rt-tbody .rt-td,
+    .slds-table_bordered .rt-tbody .rt-th,
+    .slds-table--bordered .rt-tbody .rt-td,
+    .slds-table--bordered .rt-tbody .rt-th{
+        border-top:1px solid #dddbda;
+    }
+    .slds-table_bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover > .rt-td:not(.slds-has-focus), 
+    .slds-table_bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover > .rt-th:not(.slds-has-focus), 
+    .slds-table_bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:focus > .rt-td:not(.slds-has-focus), 
+    .slds-table_bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:focus > .rt-th:not(.slds-has-focus),
+    .slds-table--bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover > .rt-td:not(.slds-has-focus),
+    .slds-table--bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover > .rt-th:not(.slds-has-focus),
+    .slds-table--bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:focus > .rt-td:not(.slds-has-focus),
+    .slds-table--bordered:not(.slds-no-row-hover) .rt-tbody .rt-tr:focus > .rt-th:not(.slds-has-focus){
+        -webkit-box-shadow:#dddbda 0 -1px 0 inset, #dddbda 0 1px 0 inset;
+                box-shadow:#dddbda 0 -1px 0 inset, #dddbda 0 1px 0 inset;
+    }
+    .slds-table_col-bordered .rt-td + .rt-td,
+    .slds-table_col-bordered .rt-th + .rt-th,
+    .slds-table_col-bordered .rt-th + .rt-td,
+    .slds-table_col-bordered .rt-td + .rt-th,
+    .slds-table--col-bordered .rt-td + .rt-td,
+    .slds-table--col-bordered .rt-th + .rt-th,
+    .slds-table--col-bordered .rt-th + .rt-td,
+    .slds-table--col-bordered .rt-td + .rt-th{
+        border-left:1px solid #dddbda;
+    }
+    .slds-table_striped .rt-tbody .rt-tr:nth-of-type(even) > .rt-td,
+    .slds-table_striped .rt-tbody .rt-tr:nth-of-type(even) > .rt-th,
+    .slds-table--striped .rt-tbody .rt-tr:nth-of-type(even) > .rt-td,
+    .slds-table--striped .rt-tbody .rt-tr:nth-of-type(even) > .rt-th{
+        background-color:#f3f2f2;
+    }
+    .slds-table_fixed-layout .rt-thead,
+    .slds-table--fixed-layout .rt-thead{
+        background-color:white;
+    }
+    .slds-table_fixed-layout .rt-tbody,
+    .slds-table--fixed-layout .rt-tbody{
+        -webkit-transform:translateZ(0);
+                transform:translateZ(0);
+    }
+
+    .slds-table_column-1-wrap .rt-tbody .rt-tr > *:nth-child(1) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-2-wrap .rt-tbody .rt-tr > *:nth-child(2) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-3-wrap .rt-tbody .rt-tr > *:nth-child(3) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-4-wrap .rt-tbody .rt-tr > *:nth-child(4) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-5-wrap .rt-tbody .rt-tr > *:nth-child(5) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-6-wrap .rt-tbody .rt-tr > *:nth-child(6) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-7-wrap .rt-tbody .rt-tr > *:nth-child(7) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-8-wrap .rt-tbody .rt-tr > *:nth-child(8) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-9-wrap .rt-tbody .rt-tr > *:nth-child(9) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-10-wrap .rt-tbody .rt-tr > *:nth-child(10) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-11-wrap .rt-tbody .rt-tr > *:nth-child(11) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-12-wrap .rt-tbody .rt-tr > *:nth-child(12) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-13-wrap .rt-tbody .rt-tr > *:nth-child(13) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-14-wrap .rt-tbody .rt-tr > *:nth-child(14) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    .slds-table_column-15-wrap .rt-tbody .rt-tr > *:nth-child(15) .slds-truncate{
+        overflow-wrap:break-word;
+        word-wrap:break-word;
+        -webkit-hyphens:none;
+            -ms-hyphens:none;
+                hyphens:none;
+        white-space:normal;
+    }
+
+    [class*=slds-table_column-] .rt-tr .rt-td .slds-truncate{
+        overflow:hidden;
+        position:relative;
+        max-height:3.25rem;
+    }
+    [class*=slds-table_column-] .rt-tr .rt-td .slds-truncate:after{
+        content:"";
+        position:absolute;
+        top:2.25rem;
+        bottom:0;
+        right:0;
+        width:50%;
+        background:-webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0)), color-stop(69%, white));
+        background:linear-gradient(to right, rgba(255, 255, 255, 0) 0%, white 69%);
+    }
+
+    [class*=slds-table_column-] .rt-tr:hover .rt-td .slds-truncate:after{
+        background:-webkit-gradient(linear, left top, right top, from(rgba(250, 250, 249, 0)), color-stop(69%, #fafaf9));
+        background:linear-gradient(to right, rgba(250, 250, 249, 0) 0%, #fafaf9 69%);
+    }
+    .slds-table_resizable-cols .rt-thead .rt-th,
+    .slds-table--resizable-cols .rt-thead .rt-th{
+        padding:0;
+    }
+
+    @media (max-width: 48em){
+        .slds-max-medium-table_stacked .rt-thead,
+        .slds-max-medium-table--stacked .rt-thead{
+            position:absolute !important;
+            margin:-1px !important;
+            border:0 !important;
+            padding:0 !important;
+            width:1px !important;
+            height:1px !important;
+            overflow:hidden !important;
+            clip:rect(0 0 0 0) !important;
+        }
+        .slds-max-medium-table_stacked .rt-th,
+        .slds-max-medium-table--stacked .rt-th{
+            border-top:0;
+        }
+        .slds-max-medium-table_stacked .rt-tr,
+        .slds-max-medium-table--stacked .rt-tr{
+            display:block;
+            border-top:2px solid #dddbda;
+        }
+        .slds-max-medium-table_stacked .rt-th,
+        .slds-max-medium-table_stacked .rt-td,
+        .slds-max-medium-table--stacked .rt-th,
+        .slds-max-medium-table--stacked .rt-td{
+            display:block;
+            padding:0.75rem;
+            max-width:100%;
+            width:100%;
+            clear:both;
+            white-space:normal;
+            overflow:hidden;
+            text-align:left;
+        }
+        .slds-max-medium-table_stacked .rt-th.slds-truncate,
+        .slds-max-medium-table_stacked .rt-td.slds-truncate,
+        .slds-max-medium-table--stacked .rt-th.slds-truncate,
+        .slds-max-medium-table--stacked .rt-td.slds-truncate{
+            max-width:100%;
+        }
+        .slds-max-medium-table_stacked .rt-th:before,
+        .slds-max-medium-table_stacked .rt-td:before,
+        .slds-max-medium-table--stacked .rt-th:before,
+        .slds-max-medium-table--stacked .rt-td:before{
+            font-size:0.75rem;
+            line-height:1.25;
+            color:#3e3e3c;
+            text-transform:uppercase;
+            letter-spacing:0.0625rem;
+            display:block;
+            padding-bottom:0.25rem;
+            content:attr(data-label);
+        }
+        .slds-max-medium-table_stacked .rt-tr > .rt-td:first-child,
+        .slds-max-medium-table_stacked .rt-tr > .rt-td:last-child,
+        .slds-max-medium-table--stacked .rt-tr > .rt-td:first-child,
+        .slds-max-medium-table--stacked .rt-tr > .rt-td:last-child{
+            padding:0.75rem;
+        }
+        .slds-max-medium-table_stacked:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover,
+        .slds-max-medium-table--stacked:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover{
+        }
+        .slds-max-medium-table_stacked:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-td,
+        .slds-max-medium-table_stacked:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-th,
+        .slds-max-medium-table--stacked:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-td,
+        .slds-max-medium-table--stacked:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-th{
+            background-color:inherit !important;
+            -webkit-box-shadow:none !important;
+                    box-shadow:none !important;
+        }
+    }
+    @media (max-width: 48em){
+        .slds-max-medium-table_stacked .rt-td:before,
+        .slds-max-medium-table_stacked .rt-th:before,
+        .slds-max-medium-table--stacked .rt-td:before,
+        .slds-max-medium-table--stacked .rt-th:before{
+            padding-bottom:0.25rem;
+        }
+    }
+    @media (max-width: 48em){
+        .slds-max-medium-table_stacked-horizontal .rt-thead,
+        .slds-max-medium-table--stacked-horizontal .rt-thead{
+            position:absolute !important;
+            margin:-1px !important;
+            border:0 !important;
+            padding:0 !important;
+            width:1px !important;
+            height:1px !important;
+            overflow:hidden !important;
+            clip:rect(0 0 0 0) !important;
+        }
+        .slds-max-medium-table_stacked-horizontal .rt-th,
+        .slds-max-medium-table--stacked-horizontal .rt-th{
+            border-top:0;
+        }
+        .slds-max-medium-table_stacked-horizontal .rt-tr,
+        .slds-max-medium-table--stacked-horizontal .rt-tr{
+            display:block;
+            border-top:2px solid #dddbda;
+        }
+        .slds-max-medium-table_stacked-horizontal .rt-th,
+        .slds-max-medium-table_stacked-horizontal .rt-td,
+        .slds-max-medium-table--stacked-horizontal .rt-th,
+        .slds-max-medium-table--stacked-horizontal .rt-td{
+            display:block;
+            padding:0.75rem;
+            max-width:100%;
+            width:100%;
+            clear:both;
+            white-space:normal;
+            overflow:hidden;
+            text-align:left;
+        }
+        .slds-max-medium-table_stacked-horizontal .rt-th.slds-truncate,
+        .slds-max-medium-table_stacked-horizontal .rt-td.slds-truncate,
+        .slds-max-medium-table--stacked-horizontal .rt-th.slds-truncate,
+        .slds-max-medium-table--stacked-horizontal .rt-td.slds-truncate{
+            max-width:100%;
+        }
+        .slds-max-medium-table_stacked-horizontal .rt-th:before,
+        .slds-max-medium-table_stacked-horizontal .rt-td:before,
+        .slds-max-medium-table--stacked-horizontal .rt-th:before,
+        .slds-max-medium-table--stacked-horizontal .rt-td:before{
+            font-size:0.75rem;
+            line-height:1.25;
+            color:#3e3e3c;
+            text-transform:uppercase;
+            letter-spacing:0.0625rem;
+            display:block;
+            padding-bottom:0.25rem;
+            content:attr(data-label);
+        }
+        .slds-max-medium-table_stacked-horizontal .rt-tr > .rt-td:first-child,
+        .slds-max-medium-table_stacked-horizontal .rt-tr > .rt-td:last-child,
+        .slds-max-medium-table--stacked-horizontal .rt-tr > .rt-td:first-child,
+        .slds-max-medium-table--stacked-horizontal .rt-tr > .rt-td:last-child{
+            padding:0.75rem;
+        }
+        .slds-max-medium-table_stacked-horizontal:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover,
+        .slds-max-medium-table--stacked-horizontal:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover{
+        }
+        .slds-max-medium-table_stacked-horizontal:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-td,
+        .slds-max-medium-table_stacked-horizontal:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-th,
+        .slds-max-medium-table--stacked-horizontal:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-td,
+        .slds-max-medium-table--stacked-horizontal:not(.slds-no-row-hover) .rt-tbody .rt-tr:hover .rt-th{
+            background-color:inherit !important;
+            -webkit-box-shadow:none !important;
+                    box-shadow:none !important;
+        }
+    }
+    @media (max-width: 48em){
+        .slds-max-medium-table_stacked-horizontal .rt-td,
+        .slds-max-medium-table--stacked-horizontal .rt-td{
+            text-align:right;
+        }
+        .slds-max-medium-table_stacked-horizontal .rt-td:before,
+        .slds-max-medium-table--stacked-horizontal .rt-td:before{
+            float:left;
+            margin-top:0.125rem;
+        }
+    }
+
+    .slds-table_edit,
+    .slds-table--edit{
+    }
+    .slds-table_edit .rt-thead .rt-th,
+    .slds-table--edit .rt-thead .rt-th{
+        padding:0;
+    }
+    .slds-table_edit:not(.slds-no-cell-focus) .rt-tbody .rt-tr:hover > .slds-cell-edit.slds-has-focus,
+    .slds-table--edit:not(.slds-no-cell-focus) .rt-tbody .rt-tr:hover > .slds-cell-edit.slds-has-focus{
+        background-color:white;
+        -webkit-box-shadow:#0070d2 0 0 0 1px inset;
+                box-shadow:#0070d2 0 0 0 1px inset;
+    }
+    .slds-table_edit.slds-table .rt-tbody .rt-tr:hover > .slds-cell-edit:hover,
+    .slds-table--edit.slds-table .rt-tbody .rt-tr:hover > .slds-cell-edit:hover{
+        background-color:white;
+    }
+    .slds-table_edit.slds-table .rt-tbody .rt-tr:hover > .slds-cell-edit.slds-is-edited,
+    .slds-table--edit.slds-table .rt-tbody .rt-tr:hover > .slds-cell-edit.slds-is-edited{
+        background-color:#faffbd;
+    }
+    .slds-table_edit.slds-table .rt-tbody .rt-tr:hover > .slds-cell-edit.slds-has-error,
+    .slds-table--edit.slds-table .rt-tbody .rt-tr:hover > .slds-cell-edit.slds-has-error{
+        background-color:#faffbd;
+        -webkit-box-shadow:#c23934 0 0 0 2px inset;
+                box-shadow:#c23934 0 0 0 2px inset;
+    }
+
+    // This is to make tables
+    .slds-table {
+        .rt-thead {
+            box-shadow: none;
+
+            .rt-tr {
+                .rt-th {
+                    text-align: left;
+                    font-weight: bold;
+                }
+            }
+
+            .rt-th:hover {
+                background-color: white;
+            }
+            
+            .rt-th .rt-resizable-header-content:after {
+                color: #0070d2;
+                position: static;
+                display: inline-block;
+                transform: none;
+                vertical-align: middle;
+                margin-top: 0;
+                font-size: 12px;
+            }
+            
+            .rt-th .rt-resizable-header-content > div, 
+            .rt-th .rt-resizable-header-content > span {
+                display: inline-block;
+                line-height: 1;
+                vertical-align: middle;
+            }
+        }
+
+        .rt-tbody {
+            // min-height: 40px;
+
+            .rt-td > span {
+                height: 100%;
+                vertical-align: middle;
+                display: inline-block;
+
+                &:after {
+                    content: '';
+                    vertical-align: middle;
+                    height: 100%;
+                    display: inline-block;
+                }
+            }
+            
+
+            .rt-td > div > a {
+                font-size: 17px;
+                display: inline-block;
+                line-height: 0;
+            }
+            
+            // @todo: this is to accomodate for the height of the 'Action' icons
+            // If there's no action icon anymore, this needs to be removed
+            .rt-td > .slds-truncate {
+                min-height: 26px;
+            }
+            
+            .rt-td > div > a > .icon {
+                font-size: inherit;
+                padding: 0;
+                line-height: 1;
+            }
+
+
+        }
+
+        
+
+    }
+
+    .rt-noData {
+        margin-top: 12px;
+        border: none;
+        padding-bottom: 0px !important;
+        padding-top: 0px !important;
+    }
+
+    .vcenter {
+        height: 100%;
+        vertical-align: middle;
+        display: inline-block;
+
+        &:before {
+            content: '';
+            vertical-align: middle;
+            height: 100%;
+            display: inline-block;
+        }
+    }
+
+    .vertical-scroll {
+        max-height: 200px;
+        ::-webkit-scrollbar {
+            width: 0px;  /* Remove scrollbar space */
+            background: transparent;  /* Optional: just make scrollbar invisible */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #dddbda;
+        }
+    }    
+
+}

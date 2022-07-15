@@ -1,0 +1,12 @@
+.spinner-loding{margin:0 auto 0;width:100%;text-align:center;display:flex;height:90vh;align-items:center;justify-content:center}
+.spinner-loding>div{width:25px;height:25px;border-radius:var(--border-radius100);display:inline-flex;-webkit-animation:sk-bouncedelay 1.4s infinite ease-in-out both;animation:sk-bouncedelay 1.4s infinite ease-in-out both;align-items:center;justify-content:center;font-size:18px;font-family:sans-serif;font-weight:600;color:#fff;background:-webkit-gradient(linear,left bottom,right top,color-stop(0,rgba(9,162,117,1)),color-stop(100%,rgba(215,127,11,1)));background:-webkit-linear-gradient(45deg,rgba(9,162,117,1) 0,rgba(215,127,11,1) 100%);background:-o-linear-gradient(45deg,rgba(9,162,117,1) 0,rgba(215,127,11,1) 100%);background:-ms-linear-gradient(45deg,rgba(9,162,117,1) 0,rgba(215,127,11,1) 100%);background:linear-gradient(45deg,rgba(9,162,117,1) 0,rgba(215,127,11,1) 100%);background:-webkit-linear-gradient(45deg,#672ea7 0,#6f4dee 100%);background:-o-linear-gradient(45deg,#672ea7 0,#6f4dee 100%);background:-ms-linear-gradient(45deg,#672ea7 0,#6f4dee 100%);background:linear-gradient(45deg,#672ea7 0,#6f4dee 100%)}
+.spinner-loding .bounce1{-webkit-animation-delay:-.32s;animation-delay:-.32s}
+.spinner-loding .bounce2{-webkit-animation-delay:-.16s;animation-delay:-.16s}
+@-webkit-keyframes sk-bouncedelay{
+0%,100%,80%{-webkit-transform:scale(0)}
+40%{-webkit-transform:scale(1)}
+}
+@keyframes sk-bouncedelay{
+0%,100%,80%{-webkit-transform:scale(0);transform:scale(0)}
+40%{-webkit-transform:scale(1);transform:scale(1)}
+}

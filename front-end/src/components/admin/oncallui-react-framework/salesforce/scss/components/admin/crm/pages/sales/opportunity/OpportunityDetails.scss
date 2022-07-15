@@ -1,0 +1,26 @@
+
+.SLDSPath {
+    .slds-path__nav .slds-is-lost .slds-path__link, 
+    .slds-path__nav .slds-is-won .slds-path__link {
+        color: white;
+    }
+
+
+}
+.slds {
+    .slds-timeline a {
+        color: #006dcc;
+        font-size: 13px;
+        
+        &:hover {
+            text-decoration: underline !important;
+        }
+    }
+}
+input {
+    height: initial;
+}
+textarea {
+    font-size: 13px;
+    font-weight: normal !important;
+}

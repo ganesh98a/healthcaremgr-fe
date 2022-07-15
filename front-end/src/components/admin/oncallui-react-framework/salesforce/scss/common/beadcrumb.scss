@@ -1,0 +1,15 @@
+.add_beadcrumb_design {
+  display: flex;
+  .breadcrumb {
+    margin-bottom: 0px;
+    & > li {
+      & + li:before {
+        color: var(--bg-color);
+        content: ">";
+      }
+      a {
+        color: var(--bg-color);
+      }
+    }
+  }
+}

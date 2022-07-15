@@ -1,0 +1,68 @@
+#sidebar-wrapper {
+    .FScroll {
+        .FScroll-inner {
+            &::-webkit-scrollbar {
+                width: 8px;
+            }
+            &::-webkit-scrollbar-track {
+                box-shadow: inset 0 0 5px grey;
+                background-color: #c4c4c4;
+                border-radius: 20px;
+            }
+            &::-webkit-scrollbar-thumb {
+                background: #747474;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+// Light theme
+#sidebar-wrapper.theme-light {
+    nav#GlobalMenu {
+        > ul > li.module-menu > ul {
+            background: white;
+            color: #545454;
+        }
+        .module-menu > ul li a {
+            color: #545454;
+
+            &:hover, &.active {
+                color: black;
+            }
+        }
+    }
+
+    .left_menu_content, .active_user_new, .active_user {
+        background: white;
+        color: #545454;
+    }
+
+    .left_menu_content {
+        .collapsible {
+            background: white;
+            color: #545454;
+
+            &:after {
+                color: #545454;
+            }
+        }
+        
+        .side_dropdown {
+            background-color: white;
+
+            ul.your_setting_list li {
+                box-shadow: none;
+                border-bottom: none;
+
+                a {
+                    color: #545454 !important;
+
+                    &:hover {
+                        color: black !important;
+                    }
+                }
+            }
+        }
+    }
+}

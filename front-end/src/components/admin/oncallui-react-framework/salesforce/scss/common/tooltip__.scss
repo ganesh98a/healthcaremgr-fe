@@ -1,0 +1,72 @@
+.MSG_Tooltip .tooltip-inner {
+  background: #000 !important;
+  background-color: #000 !important;
+}
+.MSG_Tooltip.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #000 !important;
+}
+.tooltip-inner {
+  background-color: #cc0000 !important;
+}
+.tooltip.top .tooltip-arrow {
+  border-top-color: #cc0000 !important;
+}
+.tooltip.right .tooltip-arrow {
+  border-right-color: #cc0000 !important;
+}
+.tooltip.bottom .tooltip-arrow {
+  border-bottom-color: #cc0000 !important;
+}
+.login100-form .tooltip-inner {
+  width: 150px;
+}
+.select-parant-validation {
+  position: relative;
+}
+.select-parant-validation .tooltip {
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translate(-50%);
+  visibility: hidden;
+}
+
+.custom_select + .tooltip.top {
+  visibility: hidden;
+  position: absolute;
+  top: -31px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 135px;
+}
+.custom_select + .tooltip.bottom {
+  visibility: hidden;
+  position: absolute;
+  bottom: -31px;
+  left: 50%;
+  transform: translate(-50%);
+  width: 135px;
+}
+.multiple_checkbox_tooltip .tooltip {
+  left: 50% !important;
+  transform: translate(-50%) !important;
+  top: -3px !important;
+  visibility: hidden;
+}
+.select-validation-error {
+  visibility: visible !important;
+}
+
+// .tab-content{
+//   .required{
+//     .tooltip.top{
+//       top: -33px !important;
+//     }
+//   }
+// }
+
+.custom_select {
+  .tooltip {
+    margin-left: 10px;
+  }
+}

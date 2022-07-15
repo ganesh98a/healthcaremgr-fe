@@ -1,0 +1,29 @@
+#EditApplicantInfo {
+    .Select-input {
+        position: static;
+    }
+
+    span.Select-clear-zone, span.Select-loading-zone {
+        padding-right: 10px;
+    }
+
+    input[type=hidden] + div.tooltip.top {
+        position: relative !important;
+        top: 0% !important;
+        left: 0% !important;
+        transform: translateY(-100%);
+        text-align: center;
+    }
+    
+    input[type=hidden] + div.tooltip.top > .tooltip-inner {
+        margin: 0 auto;
+        display: inline-block;
+    }
+    
+    input[type=hidden] + div.tooltip.top > .tooltip-arrow {
+        transform: translateX(50%);
+        left: 50%!important;
+        margin-left: -10px;
+    }
+
+}

@@ -1,0 +1,186 @@
+
+body .list-data-table-view{
+    .slds-table_header-fixed_container {
+        padding-top: 0 !important;
+    }
+    .slds-table td {
+        padding: 5px 15px !important;
+    }
+}
+.datatablelist-view .modal-selection-table-pad .slds-table_header-fixed_container{
+    padding-top: 2rem !important
+}
+.modal-selection-table-pad .slds-table_header-fixed_container tbody tr th > div[title="icon"]{
+    overflow: visible !important
+}
+table#DataTableListView-FixedHeaders{position: relative; padding-top:0px; max-height: 500px;}
+table#DataTableListView-FixedHeaders th {
+    border: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: #fafaf9;
+    color: #514f4d;
+    font-weight: 700;
+    line-height: normal;
+}
+.datatablelist-view .asideSect__, .datatablelist-view .is-logged-in #page-content-wrapper-inner > div:last-child, .datatablelist-view .is-logged-in #page-content-wrapper-inner > section:last-child{
+    min-height:inherit !important;
+}
+.datatablelist-view .slds-table_header-fixed_container, .datatablelist-view .slds-table--header-fixed_container{
+    padding-top: 0px !important;
+}
+
+body.datatablelist-view table tr td a,
+body.datatablelist-view table tr td a:hover {
+    text-decoration: none !important;
+}
+body.datatablelist-view{
+   // overflow: hidden !important;
+}
+#DataTableListView-FixedHeaders .slds-cell-fixed
+{
+    position: initial !important;
+    min-height: 23px !important;
+    height: 27px !important;
+}
+.datatablelist-view .modal-selection-table-pad .slds-table th{
+    padding: 0 15px !important;
+    white-space: nowrap;
+    position: inherit;
+    border-bottom:0px !important;
+    border-top-color:#dddbda !important;
+    font-size: 14px !important;
+    color: #514f4d !important;
+}
+body.datatablelist-view .slds-table th{
+    padding: 0 15px !important;
+    white-space: nowrap;
+    position: relative;
+    border-bottom:1px solid #dddbda !important;
+    border-top-color:#dddbda !important;
+    font-size: 14px !important;
+    color: #514f4d !important;
+}
+body.datatablelist-view .slds-table th .slds-cell-fixed a.slds-th__action{
+    padding:0 !important;
+    height:auto !important;
+    line-height: normal !important;
+}
+body.datatablelist-view .slds-table td {
+    padding: 2px 15px !important;
+    white-space: nowrap;
+    position: relative;
+    border-top:1px solid #dddbda !important;
+    box-shadow: none !important;
+}
+body.datatablelist-view .slds-table tr:hover td{
+    border-color:#ccc !important;
+    border-left-color: #dddbda !important;
+    border-bottom-color: #ccc !important;
+}
+body.datatablelist-view .slds-table td:first-child, body.datatablelist-view .slds-table th:first-child
+ {
+    border-left:1px solid #dddbda !important;
+}
+.slds-table th:first-child .slds-checkbox {
+    position: relative;
+    left: -19px;
+    top: 2px;
+}
+.slds-table td:first-child .slds-checkbox {
+    position: relative;
+    top: 5px;
+}
+body.datatablelist-view .slds-table_header-fixed tbody tr:first-child td,
+body.datatablelist-view .slds-table_header-fixed tbody tr:first-child th,
+body.datatablelist-view .slds-table--header-fixed tbody tr:first-child td,
+body.datatablelist-view .slds-table--header-fixed tbody tr:first-child th {
+    border-top:0.5px solid #dddbda !important;
+}
+
+.resizer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 5px;
+    height: 100%;
+    cursor: col-resize;
+    user-select: none;
+}
+
+#dt-noData{
+    margin-top: 12px;
+    border: none;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%,-50%);
+    background: rgba(255,255,255,0.8);
+    transition: all .3s ease;
+    z-index: 1;
+    pointer-events: none;
+    padding: 20px;
+    color: rgba(0,0,0,0.5);
+}
+.datatablelist-view .slds-table_header-fixed_container{border-top: none !important;}
+body.datatablelist-view a.vcenter.default-underlined.slds-truncate { font-size: 13px; text-decoration: underline !important;}
+#DataTableListView-FixedHeaders tr td .slds-truncate {font-size: 13px;}
+.slds-pointer {
+    position: absolute;
+    left: -23px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: calc(1.25rem + .0625rem);
+    height: calc(1.25rem + .0625rem);
+    transform: rotate(45deg);
+    z-index: 1000;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+body.datatablelist-view .slds-page-header__meta-text {
+    font-size: 12px !important;
+    font-weight: 700;
+}
+
+body.datatablelist-view .Select-menu-outer {
+    height: 150px !important;
+    max-height: 150px !important;
+}
+body.datatablelist-view .Select-menu{
+    max-height: 150px !important;
+}
+.slds-panel_docked-right {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.25);
+}
+#DataTableListView-FixedHeaders .slds-th__action:focus,
+    #DataTableListView-FixedHeaders .slds-th__action:hover { background-color: transparent !important;}
+.shrink_table_width{width: 75.6%;}
+body.datatablelist-view .slds-size_medium,
+body.datatablelist-view .slds-size--medium {width: 100%;}
+body.datatablelist-view .shift-lock-icon {
+    margin-left: 1px;
+}
+#DataTableListView-FixedHeaders .slds-text-block{white-space: normal; line-height: 22px;vertical-align: top;}
+.slds-overflow-vis {
+    overflow: visible !important;
+}
+
+.datatablelist-view .modal-selection-table-pad .slds-table_header-fixed_container{
+    padding-top: 2rem !important
+}
+
+.datatablelist-view .modal-selection-table-pad .slds-table th{
+    padding: 0.25rem 0.5rem !important;
+    white-space: nowrap;
+    position: inherit;
+    border-bottom:0px solid #dddbda !important;
+    border-top-color:#dddbda !important;
+    font-size: 14px !important;
+    color: #514f4d !important;
+}

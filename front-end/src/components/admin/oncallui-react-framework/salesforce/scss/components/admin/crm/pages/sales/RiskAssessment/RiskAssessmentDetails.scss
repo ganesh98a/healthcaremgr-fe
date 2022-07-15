@@ -1,0 +1,32 @@
+// make this styling scoped to avoid affecting other styles
+.RiskAssessmentDetails {
+    font-family: "Salesforce Sans", Arial, Helvetica, sans-serif;
+    font-size: 13;
+    
+    .slds-card-bor {
+        border: 1px solid #dddbda !important;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.1) !important;
+    }
+    
+    .slds-box-bg {
+        background: #fff;
+    }
+    
+    .sdls-timeline-subject {
+        font-size: 13px;
+    }
+
+    .SLDSReactTable.ReactTable .rt-noData {
+        vertical-align: middle;
+        background-color: white;
+        position: static;
+        width: 100%;
+        transform: none;
+        margin: 0;
+        line-height: 26px;
+    }
+    
+    .radio-btn-display {
+        display: inline-block !important;
+    }
+}

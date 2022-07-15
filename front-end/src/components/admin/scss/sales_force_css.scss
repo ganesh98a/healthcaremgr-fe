@@ -1,0 +1,21 @@
+.slds_custom_modal .slds-modal__header{box-shadow:none}
+.slds_custom_modal .slds-modal__footer{position: inherit}
+// .SLDS_custom_Select .Select-control{background-color: #ffffff !important}
+// .SLDS_custom_Select .Select-arrow::before{background-color: #ffffff !important; color: #dddbda !important}
+
+// .SLDS_custom_Select .Select-value .Select-value-label{background-color: #ffffff !important;  color : #333 !important}
+// .SLDS_custom_Select  .Select, .Select div, .Select input, .Select span{border-color: #dddbda !important}
+form.slds_form input {height: auto;}
+.remove_previous_header_css{box-shadow: none; background: inherit}
+.slds_my_card .slds-card {position: relative; padding: 0; background: white; border: 1px solid #dddbda; border-radius: 0.25rem; background-clip: padding-box;box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);}
+.custom_page_header .slds-page-header__name-title h1 {font-size: inherit; font-weight: inherit;}
+.SLDS_a_color{ color:#006dcc !important}
+.SLDS_date_picker_width .slds-dropdown-trigger { width:100% !important}
+.white_bg_color{background:#fff}
+
+dl.lower_font_size {font-size: .8125rem; font-weight: inherit;}
+.slds-checkbox_add-button [type="checkbox"]:checked ~ .slds-checkbox_faux { background:#4bca81 !important}
+.datepicker_100_width .slds-dropdown-trigger {
+    width: 100%;
+}
+.white_bg_color{background:#fff}

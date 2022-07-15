@@ -1,0 +1,15 @@
+.LeadDetails {
+    @media (min-width: 768px) {
+        .SLDSRightSidebarParent {
+            padding-left: 4px;
+        }
+    }
+
+    .LeadDetailsContentArea {
+        flex-wrap: wrap;
+
+        @media (min-width: 768px) {
+            flex-wrap: nowrap;
+        }
+    }
+}

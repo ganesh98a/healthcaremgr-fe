@@ -1,0 +1,10 @@
+diff a/admin/front-end/src/components/admin/crm/Tasks.js b/admin/front-end/src/components/admin/crm/Tasks.js	(rejected hunks)
+@@ -185,7 +185,7 @@
+     render() {
+ 
+         var priority = this.state.task_priority;
+-        var options = "";
++        var options = ";
+ 
+         return (
+             <div className="custom-modal-body w-100 mx-auto">

@@ -1,0 +1,1264 @@
+/* Common Table Classes */
+.ReactTable .rt-td.Tb_class_d1 {
+  white-space: initial;
+}
+.ReactTable .-pagination select {
+  border: 0 solid !important;
+}
+
+.td_overflow_issue_fixed .ReactTable .rt-td {
+  overflow: inherit;
+}
+span.icon.next {
+  background: var(--bg-color);
+  width: 37px;
+  height: 36px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius100);
+}
+.pagination-bottom span.icon.next,
+.pagination-bottom span.icon.privious {
+  width: 37px;
+  height: 36px;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border-radius: var(--b-radius);
+}
+
+span.icon.privious {
+  background: var(--bg-color);
+  width: 37px;
+  height: 36px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--border-radius100);
+}
+.pagination-bottom span.icon.next {
+  background: var(--bg-color);
+  background-color: var(--bg-color);
+}
+.pagination-bottom span.icon.privious {
+  background: var(--bg-color);
+  background-color: var(--bg-color);
+}
+
+.on_form_to_search .react-datepicker__close-icon::after {
+  left: 100%;
+}
+.ReactTable .rt-noData {
+  z-index: 0;
+}
+div.ReactTable .rt-noData {
+  z-index: 0;
+}
+
+.schedule_listings .ReactTable .rt-thead .rt-th,
+.schedule_listings .ReactTable .rt-thead .rt-td {
+  padding: 0px 5px;
+}
+
+.listing_table {
+  & .ReactTable .rt-noData,
+  & .archive_btn,
+  & .inactive_btn,
+  & .active_btn,
+  & .rt-tr,
+  & .ReactTable .rt-thead .rt-tr,
+  & .privious:before,
+  & .ReactTable .rt-tbody .rt-tr,
+  & .ReactTable .rt-thead .rt-tr,
+  & span.-pageInfo,
+  & .next:before {
+    border-radius: var(--b-radius);
+  }
+
+  i.icon.icon-views:before {
+    font-size: 20px;
+    display: inline-block;
+    line-height: 21px;
+    vertical-align: middle;
+    color: #1ca177;
+  }
+  .next:before,
+  .privious:before {
+    background: var(--bg-color);
+    background-color: var(--bg-color);
+  }
+  .ReactTable {
+    border: 0px;
+  }
+  .rt-tr-group {
+    margin: 10px 0px 0px;
+  }
+  .ReactTable.-striped .rt-tr.-odd {
+    background: rgba(0, 0, 0, 0.03);
+    border: 0px;
+    align-items: center;
+    min-height: 40px;
+  }
+  .ReactTable.-striped .rt-tr.-even {
+    background: #fff;
+    border: 0px;
+    align-items: center;
+    min-height: 40px;
+  }
+  .ReactTable .rt-thead .rt-th {
+    padding: 11px 10px;
+    text-align: left;
+  }
+  .ReactTable .rt-thead .rt-tr {
+    // background: #1e1e1e;
+    color: #fff;
+  }
+  .ReactTable .rt-tbody .rt-td,
+  .ReactTable .rt-thead .rt-th {
+    border-right: 1px solid rgba(0, 0, 0, 0.12);
+  }
+  .ReactTable .rt-thead.-header {
+    box-shadow: none;
+  }
+  .ReactTable .rt-thead .rt-tr,
+  span.-pageInfo,
+  .ReactTable .rt-noData,
+  .ReactTable .rt-tbody .rt-td,
+  .ReactTable .rt-thead .rt-th {
+    font-weight: 400 !important;
+  }
+  .next:before,
+  .privious:before {
+    border-color: var(--b-color);
+  }
+  .ReactTable.-striped .rt-tr.-even,
+  .ReactTable.-striped .rt-tr.-odd {
+    min-height: 52px;
+  }
+
+  &.table_progress .ReactTable.-striped .rt-tr.-odd + .progressInline + .applicant_info1 {
+    background: #ebebeb;
+  }
+  &.table_progress .ReactTable.-striped .rt-tr.-even + .progressInline + .applicant_info1 {
+    background: #fff;
+  }
+
+  &.odd_even_marge-1_tBL.table_progress .ReactTable.-striped .rt-tr.-odd + .progressInline + .applicant_info1,
+  &.odd_even_marge-1_tBL.table_progress .ReactTable.-striped .rt-tr.-even + .progressInline + .applicant_info1 {
+    background: #fff;
+  }
+  &.odd_even_marge-2_tBL.table_progress .ReactTable.-striped .rt-tr.-odd + .progressInline + .applicant_info1,
+  &.odd_even_marge-2_tBL.table_progress .ReactTable.-striped .rt-tr.-even + .progressInline + .applicant_info1 {
+    background: #ebebeb;
+  }
+  &.table_progress {
+    .progressInline {
+      display: inline-block;
+      background: var(--bg-color);
+      height: 6px;
+      position: relative;
+      margin-top: -2px;
+    }
+    .rt-thead.-header .progressInline {
+      display: none;
+    }
+    .ReactTable .rt-tbody .rt-tr:after {
+      width: 0%;
+    }
+    .ReactTable .rt-tbody .rt-tr.-padRow:before,
+    .ReactTable .rt-tbody .rt-tr.-padRow:after,
+    .ReactTable .rt-tbody .rt-tr.-padRow + .progressInline {
+      display: none;
+    }
+  }
+  & .ReactTable .rt-thead .rt-tr {
+    background: var(--bg-color);
+    background-color: var(--bg-color);
+  }
+}
+
+.ReactTable {
+  .-pagination .-pageSizeOptions {
+    border-radius: var(--b-radius);
+  }
+  .-pagination .-pageInfo {
+    display: flex;
+    align-content: center;
+    height: 40px;
+    line-height: 40px;
+  }
+  .-pagination .-pageJump {
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  .-pagination .-totalPages {
+    padding-left: 10px;
+  }
+  div.-pageJump input {
+    border-radius: var(--b-radius) !important;
+  }
+  .-pagination .-pageJump input {
+    height: 35px;
+    background: var(--bg-color);
+    background-color: var(--bg-color);
+  }
+  .-pagination .-btn {
+    color: #fff;
+  }
+  .-pageJump input[type="number"]::-webkit-inner-spin-button,
+  .-pageJump input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none !important;
+    -moz-appearance: none !important;
+    appearance: none !important;
+  }
+  .-pageJump input[type="number"] {
+    -moz-appearance: textfield !important;
+  }
+  .-pagination .-pageJump input {
+    width: 70px;
+    text-align: center;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    padding: 0;
+    vertical-align: middle;
+    line-height: 0;
+    color: #fff;
+  }
+  .-pagination select {
+    height: 35px;
+    border: 1px solid transparent;
+  }
+  .-pagination .-pageSizeOptions {
+    margin: 3px 10px;
+    overflow: hidden;
+    border: 1px solid #ddd;
+  }
+  .-pagination .-center {
+    flex: 15;
+  }
+  .rt-thead .rt-th.-sort-asc,
+  .rt-thead .rt-th.-sort-desc {
+    box-shadow: inset 0px 0px 0px 0px #000 !important;
+  }
+  .rt-thead .rt-th.-sort-asc .rt-resizable-header-content:after {
+    content: "\e030";
+    font-family: "icons_me";
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .rt-thead .rt-th.-sort-desc .rt-resizable-header-content:after {
+    content: "\e02e";
+    font-family: "icons_me";
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  .-pagination {
+    margin-top: 15px;
+  }
+  .-pagination .-previous,
+  .-pagination .-next {
+    flex: 2;
+  }
+  .-pagination {
+    background: none;
+    box-shadow: 0px 0px 0px 0px !important;
+    border-top: 0px solid #fff !important;
+  }
+  .-pagination .-btn {
+    background: none !important;
+  }
+  .-next button {
+    text-align: left;
+    margin-top: 0px;
+  }
+  .-previous button {
+    text-align: right;
+    margin-top: 0px;
+  }
+  .rt-tr.-padRow.-odd,
+  .rt-tr.-padRow.-even {
+    visibility: hidden;
+  }
+  .rt-noData {
+    width: 100%;
+    text-align: center;
+    padding: 7px !important;
+    border: 1px solid #ddd;
+  }
+  .-pagination .-btn:not([disabled]):hover {
+    color: #1e1e1e !important;
+  }
+  div.rt-tbody .rt-tr-group {
+    border-bottom: 0px solid;
+  }
+  .rt-tfoot .rt-td {
+    padding: 0px;
+    height: auto;
+    line-height: normal;
+    margin: 0;
+    border: 0px;
+  }
+  .rt-tfoot {
+    box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.15);
+  }
+  .rt-thead.-header .rt-tr {
+    font-weight: 400;
+  }
+  .rt-thead.-header {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.15);
+  }
+  .rt-thead .rt-th .rt-resizable-header-content:after {
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translate(-4px, -50%);
+  }
+}
+
+span.select-wrap.-pageSizeOptions {
+  min-width: 120px;
+  position: relative;
+  color: #fff;
+  select::-ms-expand {
+    display: none;
+  }
+  select {
+    position: relative;
+    z-index: 1;
+    background: transparent;
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    cursor: pointer;
+  }
+  &::after {
+    content: "\66";
+    position: absolute;
+    right: 0;
+    font-family: "icons_me";
+    z-index: 0;
+    font-size: 13px;
+    width: 22px;
+    height: 35px;
+    text-align: center;
+    display: flex;
+    top: 0;
+    justify-content: start;
+    align-items: center;
+  }
+  &.react_arrow_flip::after {
+    content: "\68";
+  }
+  select option {
+    background: var(--bg-color);
+  }
+  & {
+    background: var(--bg-color);
+  }
+}
+
+.Tab_Overflow__ {
+  .ReactTable {
+    .rt-tbody {
+      .rt-tr-group {
+        overflow: visible;
+      }
+    }
+  }
+}
+.odd_even_tBL {
+  .ReactTable.-highlight {
+    .rt-tr.-odd,
+    .rt-tr.-odd + .tBL_Sub {
+      background: $table-even-bg;
+    }
+    .rt-tr.-even,
+    .rt-tr.-even + .tBL_Sub {
+      background: $table-odd-bg;
+    }
+    .rt-tbody {
+      .rt-tr.-odd:not(.-padRow):hover {
+        background: $table-even-bg;
+      }
+      .rt-tr.-even:not(.-padRow):hover {
+        background: $table-odd-bg;
+      }
+    }
+  }
+}
+.odd_even_marge-1_tBL {
+  .ReactTable.-highlight {
+    .rt-tr.-odd,
+    .rt-tr.-odd + .tBL_Sub {
+      background: $table-odd-bg;
+    }
+    .rt-tr.-even,
+    .rt-tr.-even + .tBL_Sub {
+      background: $table-odd-bg;
+    }
+
+    .rt-tbody {
+      .rt-tr.-odd:not(.-padRow):hover {
+        background: $table-odd-bg;
+      }
+      .rt-tr.-even:not(.-padRow):hover {
+        background: $table-odd-bg;
+      }
+    }
+  }
+}
+.odd_even_marge-2_tBL {
+  .ReactTable.-highlight {
+    .rt-tr.-odd,
+    .rt-tr.-odd + .tBL_Sub {
+      background: $table-even-bg;
+    }
+    .rt-tr.-even,
+    .rt-tr.-even + .tBL_Sub {
+      background: $table-even-bg;
+    }
+
+    .rt-tbody {
+      .rt-tr.-odd:not(.-padRow):hover {
+        background: $table-even-bg;
+      }
+      .rt-tr.-even:not(.-padRow):hover {
+        background: $table-even-bg;
+      }
+    }
+  }
+}
+.line_space_tBL {
+  .rt-tr.-odd,
+  .rt-tr.-even {
+    padding: 7px 0px;
+    .rt-td {
+      border-color: rgba(0, 0, 0, 0.4);
+      padding: 4px 7px;
+    }
+  }
+}
+
+.listing_table.H-Set_tBL {
+  .ReactTable.-striped {
+    .rt-tr.-odd,
+    .rt-tr.-even {
+      min-height: 40px;
+      @include tBL_td_style;
+    }
+    @include tBL_th_style;
+  }
+}
+
+.expander_bind {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+  align-items: center;
+  &.justify-content-center {
+    justify-content: center;
+  }
+}
+.header_cnter_tabl {
+  & > div,
+  .rt-resizable-header-content {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+  }
+  &.checkbox_header > div {
+    justify-content: start;
+  }
+}
+
+.listing_table.Remove-Margin-tBL .rt-tr-group {
+  margin: 0px;
+}
+.Remove-Border-body-tBL {
+  .rt-tr.-odd,
+  .rt-tr.-even {
+    .rt-td {
+      border-color: rgba(0, 0, 0, 0);
+    }
+  }
+}
+
+/* Finance Table  */
+.L-I-P_Table {
+  @include tBL_Sub;
+  @include tBL_des;
+  @include L-I-P_list;
+}
+
+.L-I-P-G_Table {
+  @include tBL_Sub;
+  @include tBL_des;
+  @include L-I-P_list;
+}
+.Payr-Das_Table {
+  @include tBL_Sub;
+  @include L-I-P_list;
+  .L-I-P_list {
+    li {
+      span:first-child {
+        color: #1e1e1e;
+      }
+    }
+  }
+}
+.Quot-Home_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Invoic-Das_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Invoic-Scheduler_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Invoic-Scheduler-History_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Credit-Note_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Refunds_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Shift_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Shift-Queries_Table {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Pay-Tax_Table {
+}
+.Pay-Tax-Indivi_Table {
+}
+.Pay-Exemption_Table {
+}
+.Audit-logs_tBL {
+}
+.F-Payroll_tBL {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.View-Finance-User_tBL {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.NDIS-Error-Tracking_tBL {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.NDIS-Billing_tBL {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Finance-Statement_tBL {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+.Finance-Exisiting-Payroll_tBL {
+  @include tBL_Sub;
+  @include tBL_td_style;
+}
+
+/* Recruitment  Table */
+.Req-Create-new-task-tBL {
+}
+.Req-Duplicate-Applicant_tBL {
+}
+.Req-Pay-Rat-Approval_tBL {
+}
+.Req-Task_tBL {
+  .overdue_task_class{
+    background-color: red;
+    width: 100%;
+    display: block;
+    color: #fff;
+    padding: 2px 0px;
+    border-radius: 3px;
+}
+}
+.Req-Job-Opening_tBL {
+}
+.Req-Applicant_tBL {
+  .table_progress {
+    .rt-tbody {
+      .rt-tr:before {
+        background: var(--light-color-background);
+        z-index: 0;
+      }
+    }
+  }
+}
+.Req-Group-Interview-Querstion_tBL {
+}
+.Req-User-Management_tBL {
+  @include tBL_Sub;
+}
+.Req-Management-Group-Interview_tBL {
+}
+.Req-Manage-Group-Interview-List_tBL {
+  .react-datepicker__input-container input[disabled] {
+    opacity: 1 !important;
+    pointer-events: none;
+  }
+  .rt-td.Show_td_stracture {
+    padding-left: 0px !important;
+    border-right: 0 !important;
+  }
+  .rt-thead.-header {
+    display: none;
+  }
+
+  .ReactTable.-highlight {
+    .rt-tr.-odd,
+    .rt-tr.-odd + .tBL_Sub {
+      background: transparent;
+      border-bottom: 1px solid #000000;
+      border-radius: 0px;
+    }
+    .rt-tr.-even,
+    .rt-tr.-even + .tBL_Sub {
+      background: transparent;
+      border-bottom: 1px solid #000000;
+      border-radius: 0px;
+    }
+    .rt-tbody {
+      .rt-tr.-odd:not(.-padRow):hover {
+        background: transparent;
+      }
+      .rt-tr.-even:not(.-padRow):hover {
+        background: transparent;
+      }
+    }
+  }
+}
+.Req-Management-Group-Interview-Inner_tBL {
+  .ReactTable.-highlight {
+    .rt-tr.-odd,
+    .rt-tr.-odd + .tBL_Sub {
+      background: $table-even-bg;
+      border-bottom: 1px solid transparent;
+      .no_record {
+        background: #fff;
+      }
+    }
+    .rt-tr.-even,
+    .rt-tr.-even + .tBL_Sub {
+      background: $table-odd-bg;
+      border-bottom: 1px solid transparent;
+    }
+    .rt-thead .rt-tr:not(.-padRow):hover {
+      background: var(--bg-color);
+    }
+    .rt-tbody {
+      .rt-tr.-odd:not(.-padRow):hover {
+        background: $table-even-bg;
+      }
+      .rt-tr.-even:not(.-padRow):hover {
+        background: $table-odd-bg;
+      }
+    }
+  }
+  .ReactTable {
+    .rt-thead.-header {
+      display: flex;
+    }
+    .rt-tbody {
+      margin-top: 0px;
+      .rt-tr-group {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
+.Req-Reschedule-tBL {
+}
+.Req-Applicant-info_tBL {
+}
+.Req-Flaged-applicant_tBL {
+}
+.Req-Applicant-logs_tBL {
+}
+.Req-Staff-Details_tBL {
+  .ReactTable {
+    .rt-tbody {
+      .rt-tr-group {
+        .rt-tr.-odd,
+        .rt-tr.-even {
+          border: 1px solid #1e1e1e;
+          + .tBL_Sub {
+            border: 1px solid #1e1e1e;
+            margin-top: -1px;
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+}
+.Req-Disable-Recruiter-tBL {
+  .tble_inp1 {
+    min-height: 30px;
+    height: 30px;
+  }
+
+  .ReactTable .rt-tbody {
+    // max-height: 320px;
+    .td_Overflow {
+      overflow: visible !important;
+      .Select-control > *:last-child {
+        padding-right: 0px;
+      }
+      .Select-arrow-zone {
+        width: 0;
+      }
+      input {
+        border: 0px solid #000;
+        padding-left: 15px;
+        height: 30px;
+      }
+    }
+    .modify_select .Select-arrow::before {
+      top: -11px;
+    }
+    .modify_select .is-open .Select-arrow::before {
+      top: -9px;
+    }
+    .modify_select .Select-control,
+    .modify_select div.Select.is-open > .Select-control {
+      height: 30px;
+      position: relative;
+    }
+  }
+}
+
+.Tab_Overflow__ {
+  .ReactTable .rt-tbody {
+    .rt-td {
+      &.td_Overflow {
+        overflow: visible !important;
+      }
+    }
+  }
+}
+
+.Req-Dashboard_tBL {
+  .listing_table {
+    .ReactTable {
+      .rt-thead {
+        .rt-tr {
+          background: transparent;
+          .rt-th {
+            border-right: 1px solid transparent !important;
+            border-left: 1px solid transparent !important;
+          }
+          div {
+            color: #1e1e1e;
+          }
+        }
+      }
+      .ellipsis_line__ {
+        word-break: break-all;
+      }
+    }
+  }
+  .LA_i1 {
+    font-size: 16px;
+  }
+}
+.Req-Communications-logs_tBL {
+  @include tBL_Sub;
+  @include L-I-P_list;
+  .L-I-P_list {
+    li {
+      span:first-child {
+        color: #1e1e1e;
+      }
+    }
+  }
+}
+.Req-Manage-Devices_tB {
+}
+.Req-Devices_tBL {
+}
+.Req-Group-Interview-Addional-Questions_tBL {
+  .customChecks [type="checkbox"]:not(:checked) + .chkLabs:before {
+    background: transparent;
+  }
+  .odd_even_tBL {
+    .ReactTable.-highlight {
+      .rt-tr.-odd,
+      .rt-tr.-odd + .tBL_Sub {
+        background: #e2e2e2;
+      }
+      .rt-tbody {
+        .rt-tr.-odd:not(.-padRow):hover {
+          background: #e2e2e2;
+        }
+      }
+    }
+  }
+}
+
+/* CRM  Table */
+.Allocate-Funding-Amount_tBL {
+  .All_div_amount {
+    display: flex;
+    .small-search.n2 {
+      margin-right: 15px;
+      input {
+        padding-left: 40px;
+        font-size: 12px;
+      }
+      button {
+        background: var(--bg-color);
+        left: 0;
+        border-radius: 3px 0px 0px 3px;
+        color: #fff;
+      }
+    }
+    & .All_div_amount_but a {
+      font-size: 17px;
+      display: inline-flex;
+      align-items: center;
+      margin: 5px;
+      color: var(--bg-color);
+    }
+  }
+}
+
+.Crm-Applicant_tBL {
+  .table_progress {
+    .rt-tbody {
+      .rt-tr:before {
+        background: #e0c0fe;
+        z-index: 0;
+      }
+    }
+    .progress-b1 .progress {
+      background: #e0c0fe;
+    }
+  }
+}
+.Crm_Funding_Details_tBL {
+}
+.crm_task_Table {
+}
+.crm_create_shift_Table {
+  @include tBL_Sub;
+}
+
+.schedule_listings {
+  .rt-tr-group {
+    margin-bottom: 10px;
+    overflow: hidden;
+  }
+  .ReactTable .rt-tbody .rt-tr-group:nth-child(odd) .rt-tr,
+  .ReactTable .rt-tbody .rt-tr-group:nth-child(odd) .other_conter {
+    background: #fff !important;
+  }
+  .ReactTable .rt-tbody .rt-tr-group:nth-child(even) .rt-tr,
+  .ReactTable .rt-tbody .rt-tr-group:nth-child(even) .other_conter {
+    background: rgba(0, 0, 0, 0.07) !important;
+  }
+  .ReactTable .rt-thead.-header {
+    margin-bottom: 15px !important;
+    margin-top: 15px !important;
+  }
+  .ReactTable .rt-tbody .rt-tr-group:nth-child(odd) .rt-td,
+  .ReactTable .rt-tbody .rt-tr-group:nth-child(even) .rt-td {
+    background: none !important;
+  }
+  .ReactTable.-striped .rt-tr.-odd,
+  .ReactTable.-striped .rt-tr.-even {
+    background: none !important;
+    font-weight: 400 !important;
+  }
+  .rt-td.rt-expandable div i:before {
+    line-height: 28px;
+  }
+  .ReactTable .rt-th,
+  .ReactTable .rt-td {
+    padding: 0px 5px 0px 5px;
+    line-height: 40px;
+  }
+  .ReactTable label {
+    margin-bottom: -5px;
+  }
+  .ReactTable .rt-thead .rt-resizable-header-content {
+    line-height: 40px;
+  }
+  .rt-resizable-header-content {
+    text-align: left;
+  }
+  .ReactTable {
+    border: 0px solid #fff;
+  }
+  .ReactTable .rt-thead.-header .rt-tr {
+    border-top: 1px solid #1e1e1e;
+    border-bottom: 1px solid #1e1e1e;
+  }
+  .ReactTable .rt-tbody .rt-tr {
+    font-weight: 400;
+  }
+  .ReactTable .rt-tbody .rt-td {
+    border-right: 1px solid rgba(0, 0, 0, 0.09);
+  }
+  .other_conter {
+    font-weight: 400;
+    padding: 15px 10px;
+    border-top: 1px solid rgba(0, 0, 0, 0.09);
+  }
+  .other_conter li {
+    list-style: none;
+  }
+  .rt-expandable i:before {
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+
+.schedule_listings {
+  &.aprvl_rcTable11 .ReactTable {
+    .rt-thead .rt-td,
+    .rt-thead .rt-th {
+      padding: 0px 5px;
+    }
+    .rt-thead .rt-th:first-child {
+      padding-left: 15px;
+    }
+    .rt-thead.-header .rt-tr .rt-th {
+      background: var(--bg-color);
+    }
+    .rt-thead.-header {
+      border-radius: var(--b-radius);
+      overflow: hidden;
+    }
+    .rt-thead.-header .rt-tr {
+      color: #fff !important;
+    }
+  }
+  i.icon.icon-views:before {
+    font-size: 20px;
+    display: inline-block;
+    line-height: 21px;
+    vertical-align: middle;
+    color: #1ca177;
+  }
+  .ReactTable .rt-noData,
+  .rt-tr-group,
+  span.-pageInfo,
+  .privious:before,
+  .next:before {
+    border-radius: var(--b-radius);
+  }
+  .next:before,
+  .privious:before {
+    background: var(--bg-color);
+    background-color: var(--bg-color);
+  }
+  .ReactTable .rt-thead.-header .rt-tr .rt-th,
+  .ReactTable .rt-thead.-header .rt-tr,
+  .next:before,
+  .privious:before {
+    border-color: var(--b-color);
+  }
+  .ReactTable .rt-thead.-header .rt-tr {
+    color: var(--txt-color);
+  }
+  .ReactTable .rt-noData {
+    font-weight: 400 !important;
+  }
+  &.p_left_table .ReactTable .rt-tbody .rt-td:first-child {
+    padding-left: 13px !important;
+  }
+  &.p_left_table .ReactTable .rt-tbody .rt-td:last-child {
+    padding-right: 13px !important;
+  }
+  &.PL_site1 .ReactTable .rt-tbody .rt-td:first-child {
+    padding-left: 15px;
+  }
+  &.th_padding-x .ReactTable .rt-thead .rt-th {
+    padding: 0 15px;
+  }
+  &.p_left_table .ReactTable .rt-tbody .rt-td:first-child {
+    padding-left: 13px !important;
+  }
+  &.p_left_table .ReactTable .rt-tbody .rt-td:last-child {
+    padding-right: 13px !important;
+  }
+  .ReactTable .rt-noData {
+    font-weight: 400 !important;
+  }
+}
+
+#unfilled_on_app .schedule_listings .ReactTable .rt-tbody .rt-td:first-child {
+  border-right: transparent;
+}
+
+.px_text__ .ReactTable .rt-td {
+  padding: 0 15px;
+}
+div.ReactTable .rt-td,
+div.ReactTable .rt-th {
+  padding: 7px 15px;
+}
+.th_txt_center__ .rt-resizable-header-content {
+  text-align: center;
+}
+
+.PL_site .ReactTable .rt-thead .rt-th:first-child,
+.PL_site .ReactTable .rt-tbody .rt-td:first-child {
+  padding-left: 15px;
+}
+.PL_site .ReactTable .rt-thead .rt-th:first-child,
+.PL_site .ReactTable .rt-tbody .rt-td:last-child {
+  padding-right: 15px;
+}
+
+.Table__itemCount {
+  font-size: 14px;
+}
+.Table__pagination {
+  display: flex;
+  justify-content: center;
+  padding: 20px 10px;
+}
+.Table__pageButton {
+  font-size: 15px;
+  outline: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  color: var(--txt-color);
+}
+.Table__pageButton:disabled {
+  cursor: not-allowed;
+  color: gray;
+}
+.Table__pageButton--active {
+  color: #1e1e1e;
+  font-weight: 700;
+}
+.pagination-bottom .Table__pageButton span.icon.next,
+.pagination-bottom .Table__pageButton span.icon.privious {
+  background: 0 0;
+  width: 30px;
+  height: auto;
+  margin-top: 2px;
+}
+.pagination-bottom .Table__pageButton span.icon.next::before,
+.pagination-bottom .Table__pageButton span.icon.privious::before {
+  background: initial;
+  background-color: initial;
+}
+
+.listing_table .rt-td:last-child {
+  border-right: 1px solid transparent !important;
+}
+
+.th_txt_center__ .header_cnter_tabl._align_l__ .rt-resizable-header-content {
+  justify-content: flex-start;
+}
+
+.Req-Latest-Updates_tBL {
+  .line_space_tBL .rt-tr.-odd .rt-td.update_td_set,
+  .line_space_tBL .rt-tr.-odd,
+  .line_space_tBL .rt-tr.-even,
+  .line_space_tBL .rt-tr.-even .rt-td.update_td_set,
+  .line_space_tBL .rt-tr.-even,
+  .line_space_tBL .rt-tr.-even {
+    padding: 0px 0px !important;
+  }
+  .rt-td.update_td_set {
+    .stats_ups {
+      margin-bottom: 0px;
+    }
+  }
+}
+
+.content_main {
+  ul {
+    list-style-type: disc;
+  }
+}
+
+.Availability_tBL {
+  .ReactTable.-highlight {
+    .rt-tr.-odd,
+    .rt-tr.-odd + .tBL_Sub {
+      background: $table-even-bg;
+      .calendar_me tr td {
+        background: $table-even-bg;
+        cursor: default;
+      }
+      .calendar_me tr th {
+        cursor: default;
+      }
+    }
+    .rt-tr.-even,
+    .rt-tr.-even + .tBL_Sub {
+      background: $table-odd-bg;
+      .calendar_me tr td {
+        background: $table-odd-bg;
+        cursor: default;
+      }
+      .calendar_me tr th {
+        cursor: default;
+      }
+    }
+    .rt-tbody {
+      .rt-tr.-odd:not(.-padRow):hover {
+        background: $table-even-bg;
+      }
+      .rt-tr.-even:not(.-padRow):hover {
+        background: $table-odd-bg;
+      }
+    }
+  }
+}
+
+.finance-statement_Table {
+  .rt-td {
+    padding-left: 0px !important;
+    a u {
+      text-decoration: underline !important;
+      color: var(--txt-color);
+    }
+  }
+  .listing_table {
+    .rt-tr-group {
+      margin: 0px;
+    }
+  }
+}
+
+.Credit-notes_tBL {
+  .rt-expandable {
+    display: none;
+  }
+}
+
+.bonus-Training_tBL {
+  @include tBL_Sub;
+}
+
+.Add-Participant_tBL {
+  .line_space_tBL .rt-tr.-odd,
+  .line_space_tBL .rt-tr.-even {
+    padding: 3px 0px;
+  }
+  .Plus_button {
+    .create_add_but {
+      &::before {
+        font-size: 20px;
+        padding: 2px 5px;
+      }
+    }
+  }
+}
+
+.House-Detail_tBL {
+  @include tBL_Sub;
+}
+
+.schedule_das_Table {
+  @include tBL_Sub;
+}
+.shedule_unconfirmed_Table {
+  @include tBL_Sub;
+}
+.shedule_cancele_and_reject_Table {
+  @include tBL_Sub;
+}
+.shedule_completed_Table {
+  @include tBL_Sub;
+}
+.Shedule_new_request_roster_Table {
+  @include tBL_Sub;
+}
+.schedule_active_roster_Table {
+  @include tBL_Sub;
+}
+.schedule_archived_dublicate_roster_Table {
+  @include tBL_Sub;
+}
+.schedule_filled_Table {
+  @include tBL_Sub;
+}
+
+.organisation_fms_Table {
+}
+
+.member_complete_shift_roster_Table {
+}
+.member_fms_Table {
+}
+.sub_org_fms_Table {
+}
+.org_pending_Table {
+  @include tBL_Sub;
+}
+.org_sub_org_das_Table {
+  @include tBL_Sub;
+}
+.org_sub_org_site_Table {
+  @include tBL_Sub;
+}
+.org_contact_Table {
+  @include tBL_Sub;
+}
+.org_site_Table {
+  @include tBL_Sub;
+}
+.org_house_contact_Table{
+  @include tBL_Sub;
+}
+.org_sub_org_contact_table{
+  @include tBL_Sub;
+}
+.org_sub_site_Table{
+  @include tBL_Sub;
+}
+.participant_booking_list_Table{
+  @include tBL_Sub;
+}
+.participant_fms_Table{
+  @include tBL_Sub;
+}
+.participant_roster_requerst_Table{
+  @include tBL_Sub;
+}
+.participant_current_roster_Table{
+  @include tBL_Sub;
+}
+.participant_dashboard_Table{
+  @include tBL_Sub;
+}
+
+.imail_template_listing_table{
+  @include tBL_Sub;
+  ul{
+    list-style-type:initial;
+    margin-left: 15px;
+  }
+}

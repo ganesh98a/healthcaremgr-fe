@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.stage{
+  font-size: 35px !important;
+}
+.mfp-wrap {
+  z-index:10430 !important;
+} 
+.mfp-bg{
+  z-index:10440 !important;
+} 
+ .pac-container {
+  z-index:10450 !important; 
+ }
+ .disable-stage-pointer{
+  pointer-events: none;
+}

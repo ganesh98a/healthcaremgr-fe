@@ -1,0 +1,117 @@
+input.radio_input {
+  height: 10px;
+  &[type="radio"]:not(old) {
+    width: 27px;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    opacity: 0;
+  }
+  &[type="radio"]:not(old) + label {
+    display: inline-block;
+    margin-left: -2em;
+    line-height: 1.5em;
+  }
+  &[type="radio"]:not(old) + label > span {
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    margin: 5px 3px 0.25em 0.25em;
+    border: 1px solid #1e1e1e;
+    border-radius: var(--border-radius100);
+    background: #fff;
+    vertical-align: bottom;
+    cursor: pointer;
+  }
+  &[type="radio"]:not(old):checked + label > span {
+    background: #fff;
+  }
+  &[type="radio"]:not(old):checked + label > span > span {
+    display: block;
+    width: 11px;
+    height: 11px;
+    margin: 0.125em;
+    border: 0.0625em solid #fff;
+    border-radius: 0.125em;
+    border-radius: var(--border-radius100);
+    background: #000;
+    margin-top: 2px;
+  }
+}
+
+.preferences_modal {
+  span.d-flex.s-w-d_div {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+  }
+  .s-w-d_div h4 {
+    width: 50%;
+    margin: 0px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+    padding-left: 15px;
+    border-right: 1px solid #ddd;
+  }
+  .s-w-d_div .cartoon_div {
+    width: 50%;
+    margin: 0px;
+    vertical-align: middle;
+    align-items: center;
+    display: flex;
+  }
+  .success-cartoon,
+  .worning-cartoon,
+  .danger-cartoon {
+    display: inline-flex !important;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin: 8px 10%;
+  }
+  .s-w-d_div:nth-child(odd) {
+    background: #c1c1c166;
+  }
+  .success-cartoon input.radio_input[type="radio"]:not(old) + label > span {
+    background: url("/assets/images/admin/success-cartoon-1.svg");
+  }
+  .worning-cartoon input.radio_input[type="radio"]:not(old) + label > span {
+    background: url("/assets/images/admin/worning-cartoon-1.svg");
+  }
+  .danger-cartoon input.radio_input[type="radio"]:not(old) + label > span {
+    background: url("/assets/images/admin/danger-cartoon-1.svg");
+  }
+  .success-cartoon input.radio_input[type="radio"]:not(old) + label > span,
+  .success-cartoon input.radio_input[type="radio"]:not(old):checked + label > span > span,
+  .worning-cartoon input.radio_input[type="radio"]:not(old) + label > span,
+  .worning-cartoon input.radio_input[type="radio"]:not(old):checked + label > span > span,
+  .danger-cartoon input.radio_input[type="radio"]:not(old) + label > span,
+  .danger-cartoon input.radio_input[type="radio"]:not(old):checked + label > span > span {
+    width: 40px;
+    height: 40px;
+    border: 0;
+    border-radius: 0;
+    background-size: 39px;
+    background-repeat: no-repeat;
+    opacity: 1 !important;
+    margin: 0px !important;
+  }
+
+  .worning-cartoon input.radio_input[type="radio"]:not(old):checked + label > span > span {
+    background: url("/assets/images/admin/worning-cartoon.svg");
+    background-size: 100%;
+  }
+  .success-cartoon input.radio_input[type="radio"]:not(old):checked + label > span > span {
+    background: url("/assets/images/admin/success-cartoon.svg");
+    background-size: 100%;
+  }
+  .danger-cartoon input.radio_input[type="radio"]:not(old):checked + label > span > span {
+    background: url("/assets/images/admin/danger-cartoon.svg");
+    background-size: 100%;
+  }
+  & .scroll_active_modal {
+    padding: 0px;
+  }
+}

@@ -1,0 +1,42 @@
+.slds-custom-notification-container {
+    top: 3.5rem;
+    right: 1.25rem;
+}
+
+#cus-header-notifications-popover, #cus-header-notifications-readed-dialog-body {
+    box-shadow:  none;
+    border: none;
+
+    .slds-global-header__notification_unread, .slds-global-header__notification--unread {
+        background-color: #ecebea !important;
+    }
+    .slds-popover__close{position: relative; top:-3; color: #4dace8}
+    .slds-notification__close{position: relative; float:right;}
+    h3{
+        font-size: 1em;
+    }
+    a.all_read {
+        position: relative;
+        padding: 12px;
+        z-index: 10;
+        color: #4dace8;
+        text-decoration: underline !important;
+        margin-right: 38px;
+    }
+    .absolute-positioned ul{
+        max-height: 317px !important;
+        overflow: auto;
+        width: 100%;
+    }
+}
+
+.view-all-div {
+    text-align: center;
+}
+
+.slds-nubbin--top-right:after, .slds-nubbin--top-right:before, .slds-nubbin_top-right-corner:after, .slds-nubbin_top-right-corner:before, .slds-nubbin_top-right:after, .slds-nubbin_top-right:before {
+    left: auto;
+    right: 1.5rem;
+    top: -.5rem;
+    margin-right: -.5rem;
+}

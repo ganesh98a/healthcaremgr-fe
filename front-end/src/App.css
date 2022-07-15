@@ -1,0 +1,149 @@
+a{color:inherit}
+body{margin:0}
+.w-25{width:25%}
+.w-50{width:50%}
+.w-55{width:55%}
+.w-65{width:65%}
+.w-75{width:75%}
+.w-80{width:80%}
+.w-85{width:85%}
+.w-95{width:95%}
+.w-100{width:100%}
+.h-25{height:25%}
+.h-50{height:50%}
+.h-55{height:55%}
+.h-65{height:65%}
+.h-75{height:75%}
+.h-80{height:80%}
+.h-85{height:85%}
+.h-95{height:95%}
+.w-0{width:0%}
+.w-10{width:10%}
+.w-20{width:20%}
+.w-30{width:30%}
+.w-40{width:40%}
+.w-50{width:50%}
+.w-60{width:60%}
+.w-70{width:70%}
+.w-80{width:80%}
+.w-90{width:90%}
+.h-100{height:100%}
+.mw-100{max-width:100%}
+.mh-100{max-height:100%}
+.w-auto{width: auto}
+.mx-auto{margin:0 auto}
+
+.d-flex{display:flex;display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex!important}
+.flex-wrap{display:-webkit-flex;-webkit-flex-wrap:wrap;display:flex;flex-wrap:wrap!important}
+.d-inline-flex{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex!important}
+.align-self-center{-ms-flex-item-align:center;align-self:center!important}
+.align-items-end{-webkit-box-align:end;-ms-flex-align:end;align-items:flex-end!important}
+.justify-content-end{-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end!important}
+.justify-content-between{-ms-flex-pack:justify;justify-content:space-between!important}
+.justify-content-center{justify-content:center;-webkit-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center!important}
+.justify-content-around{-ms-flex-pack:distribute;justify-content:space-around!important}
+.d-inline-flex{display:-webkit-inline-box;display:-ms-inline-flexbox;display:inline-flex!important}
+.align-items-center{-webkit-box-align:center;-moz-box-align:center;-ms-flex-align:center;-webkit-align-items:center;align-items:center!important}
+.align-content-center{-ms-flex-line-pack:center;align-content:center!important}
+.align-content-end{-ms-flex-line-pack:end;align-content:flex-end!important}
+.align-content-start{-ms-flex-line-pack:start;align-content:flex-start!important}
+.align-content-between{-ms-flex-line-pack:justify;align-content:space-between!important}
+.align-content-around{-ms-flex-line-pack:distribute;align-content:space-around!important}
+.align-content-stretch{-ms-flex-line-pack:stretch;align-content:stretch!important}
+.align-self-end{-ms-flex-item-align:end;align-self:flex-end!important}
+
+.col{-ms-flex-preferred-size:0;flex-basis:0;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1;max-width:100%}
+.col-auto{-webkit-box-flex:0;-ms-flex:0 0 auto;flex:0 0 auto;width:auto;max-width:none}
+.col-1{-webkit-box-flex:0;-ms-flex:0 0 8.333333%;flex:0 0 8.333333%;max-width:8.333333%}
+.col-2{-webkit-box-flex:0;-ms-flex:0 0 16.666667%;flex:0 0 16.666667%;max-width:16.666667%}
+.col-3{-webkit-box-flex:0;-ms-flex:0 0 25%;flex:0 0 25%;max-width:25%}
+.col-4{-webkit-box-flex:0;-ms-flex:0 0 33.333333%;flex:0 0 33.333333%;max-width:33.333333%}
+.col-5{-webkit-box-flex:0;-ms-flex:0 0 41.666667%;flex:0 0 41.666667%;max-width:41.666667%}
+.col-6{-webkit-box-flex:0;-ms-flex:0 0 50%;flex:0 0 50%;max-width:50%}
+.col-7{-webkit-box-flex:0;-ms-flex:0 0 58.333333%;flex:0 0 58.333333%;max-width:58.333333%}
+.col-8{-webkit-box-flex:0;-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+.col-9{-webkit-box-flex:0;-ms-flex:0 0 75%;flex:0 0 75%;max-width:75%}
+.col-10{-webkit-box-flex:0;-ms-flex:0 0 83.333333%;flex:0 0 83.333333%;max-width:83.333333%}
+.col-11{-webkit-box-flex:0;-ms-flex:0 0 91.666667%;flex:0 0 91.666667%;max-width:91.666667%}
+.col-12{-webkit-box-flex:0;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+input:-internal-autofill-previewed,input:-internal-autofill-selected,select:-internal-autofill-previewed,select:-internal-autofill-selected,textarea:-internal-autofill-previewed,textarea:-internal-autofill-selected{background-color:#fff!important;-webkit-box-shadow:0 0 0 1000px #fff inset}
+.P_30_AZ{padding:30px}
+.P_25_AZ{padding:25px}
+.P_20_AZ{padding:20px}
+.P_15_AZ{padding:15px}
+.P_10_AZ{padding:10px}
+.P_7_AZ{padding:7px}
+.P_30_TB{padding-top:30px;padding-bottom:30px}
+.P_25_TB{padding-top:25px;padding-bottom:25px}
+.P_20_TB{padding-top:20px;padding-bottom:20px}
+.P_15_TB{padding-top:15px;padding-bottom:15px}
+.P_10_TB{padding-top:10px;padding-bottom:10px}
+.P_7_TB{padding-top:7px;padding-bottom:7px}
+.P_30_LR{padding-left:30px;padding-right:30px}
+.P_25_LR{padding-left:25px;padding-right:25px}
+.P_20_LR{padding-left:20px;padding-right:20px}
+.P_15_LR{padding-left:15px;padding-right:15px}
+.P_10_LR{padding-left:10px;padding-right:10px}
+.P_7_LR{padding-left:7px;padding-right:7px}
+.P_30_R{padding-right:30px}
+.P_45_T{padding-top:45px}
+.P_30_T{padding-top:30px}
+.P_25_T{padding-top:25px}
+.P_20_T{padding-top:20px}
+.P_15_T{padding-top:15px}
+.P_10_T{padding-top:10px}
+.P_7_T{padding-top:7px}
+.P_30_b{padding-bottom:30px}
+.P_25_b{padding-bottom:25px}
+.P_20_b{padding-bottom:20px}
+.P_15_b{padding-bottom:15px}
+.P_10_b{padding-bottom:10px}
+.P_7_b{padding-bottom:7px}
+.M_30_b{padding-bottom:30px}
+.M_25_b{padding-bottom:25px}
+.M_20_b{padding-bottom:20px}
+.M_15_b{padding-bottom:15px}
+.M_10_b{padding-bottom:10px}
+.M_7_b{padding-bottom:7px}
+
+.after_before_remove::after,.after_before_remove::before{content:none}
+.none-after::after,.none-before::before,.remove-after-before:after,.remove-after-before:before{content:none}
+body,html{min-height:calc(100vh - 65px)}
+
+.cursor-pointer{cursor:pointer}
+.word_wrap_break_{word-break:break-all}
+.pointer-events-none-important{pointer-events:none!important}
+.text_break_all{word-break:break-all; white-space: normal;}
+
+.d-none{display:none!important}
+.d-inline{display:inline!important}
+.d-inline-block{display:inline-block!important}
+.d-block{display:block!important}
+.d-table{display:table!important}
+.d-table-row{display:table-row!important}
+.d-table-cell{display:table-cell!important}
+.d-flex{display:-webkit-box!important;display:-ms-flexbox!important;display:flex!important}
+.d-inline-flex{display:-webkit-inline-box!important;display:-ms-inline-flexbox!important;display:inline-flex!important}
+.but1
+{
+    background: var(--bg-color);
+    color: #fff;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
+    padding: 2px 15px;
+}
+
+
+
+.phonenocode {
+    padding-right: 5px;
+}
+
+@media only screen and (max-device-width: 960px) {
+
+    /* styles for browsers larger than 960px; */
+    .phonenocode {
+        padding-right: 7px;
+    }
+}

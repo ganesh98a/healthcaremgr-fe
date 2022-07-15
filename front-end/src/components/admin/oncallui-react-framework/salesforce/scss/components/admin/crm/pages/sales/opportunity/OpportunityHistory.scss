@@ -1,0 +1,13 @@
+div.field-history-feed.slds-feed {
+    article.slds-post {
+        div.slds-post__content {
+            border: 1px solid #dddbda;
+            padding: 1rem;
+            border-radius: 4px;
+            ul {
+                list-style-type: none;
+                margin-left: 0;
+            }
+        }
+    }
+}

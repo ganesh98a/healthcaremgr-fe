@@ -1,0 +1,132 @@
+@mixin tBL-Sub {
+  .tBL_Sub {
+    padding: 15px;
+    border-top: 1px solid #777;
+  }
+}
+
+@mixin tBL_des {
+  .tBL_des {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+}
+@mixin tBL_td_style {
+  .rt-td {
+    font-size: 14px;
+  }
+}
+@mixin tBL_th_style {
+  .rt-th {
+    font-size: 14px;
+  }
+}
+
+@mixin L-I-P_list {
+  .L-I-P_list {
+    display: flex;
+    flex-wrap: wrap;
+    li {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      span:first-child {
+        color: var(--bg-color);
+      }
+      span {
+        flex: 1;
+        padding-top: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+@mixin User-set_icons {
+  .Participant_icon i {
+    content: "\e0b8";
+    color: $participant-color;
+  }
+  .Site_icon i::before {
+    content: "\e0b8";
+    color: $org-color;
+  }
+  .Sub_org_icon i::before {
+    content: "\e0b8";
+    color: $org-color;
+  }
+  .Org_icon i::before {
+    content: "\e0b8";
+    color: $org-color;
+  }
+  .Member_icon i::before {
+    content: "\e0b8";
+    color: $member-color;
+  }
+  .House_icon i::before {
+    content: "\e0b8";
+    color: $org-color;
+  }
+}
+
+@mixin sort_expander_custom {
+  font-family: "icons_me";
+  font-size: 14px;
+  margin-left: 5px;
+  position: absolute;
+  right: -5px;
+  width: 20px;
+  text-align: right;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+@mixin counter_symbole {
+  border-top: 0px solid;
+  border-bottom: 0px solid;
+  background: transparent !important;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+@mixin f-12_ {
+  font-size: 12px;
+}
+@mixin f-13_ {
+  font-size: 13px;
+}
+@mixin f-14_ {
+  font-size: 14px;
+}
+@mixin f-15_ {
+  font-size: 15px;
+}
+@mixin f-16_ {
+  font-size: 16px;
+}
+@mixin f-17_ {
+  font-size: 17px;
+}
+@mixin f-18_ {
+  font-size: 18px;
+}
+@mixin f-19_ {
+  font-size: 19px;
+}
+@mixin f-20_ {
+  font-size: 20px;
+}
+@mixin f-21_ {
+  font-size: 21px;
+}
+@mixin f-22_ {
+  font-size: 22px;
+}
+@mixin f-23_ {
+  font-size: 23px;
+}
+@mixin f-24_ {
+  font-size: 24px;
+}
+@mixin f-25_ {
+  font-size: 25px;
+}
+

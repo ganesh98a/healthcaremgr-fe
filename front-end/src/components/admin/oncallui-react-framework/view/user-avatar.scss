@@ -1,0 +1,29 @@
+.user-avatar {    
+    border: 1px solid #dddbda;
+    width: 150px;
+    margin: auto;
+    padding: 5px;
+    height: 140px;
+    padding-top: 25px;
+}
+#create_user .slds-avatar_medium, #create_update_user .slds-avatar_medium, #edit_applicant .slds-avatar_medium {
+    width: 5rem;
+    height: 5rem;
+    font-size: 0.875rem;
+    margin: auto;
+    display: block;
+    
+}
+.qrf-avatar-icon {padding: 5px; cursor: pointer;}
+.avatar-icons {text-align: center;}
+.avatar-icons .icon-bg {
+    background: #f0ecec;
+    margin: 3px;
+    display: inline-block;
+    border: 1px solid lightgray;
+}
+#update-profile-pic-modal-content .no-border {border: none; outline: none;}
+.profImg .slds-avatar_large, .profImg .slds-avatar--large {
+    width: 8rem;
+    height: 8rem;
+}

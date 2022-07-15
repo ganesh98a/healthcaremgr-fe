@@ -1,0 +1,15 @@
+.SLDSISODatePicker {
+    .slds-input[readonly] {
+        padding-left: 0.75rem;
+        border-color: #dddbda;
+        background-color: white;
+        font-weight: 400;
+        font-size: 0.8125rem;
+    }
+
+    &.SLDSISODatePicker-has_value {
+        .slds-form-element__control .slds-button.slds-button_icon {
+            display: none;
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.combox_box-to-cus  {
+    .slds-combobox_container {
+        display: table;
+        width:100%;
+        #combobox-to-contact-selected-listbox {
+            // padding-top: 50px;
+            .slds-listbox__item {
+                margin: 3px;
+            }
+            .slds-listbox .slds-listbox {
+                .slds-listbox__item {
+                    margin: 3px;
+                }
+            }
+        }
+
+        .slds-combobox {
+            // height: 44px;
+            // position: absolute;
+            top: 1px;
+            left: 0;
+            padding: 2px;
+        }
+    }
+}
+.absolute-positioned ul{
+    max-height:150px;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+.attach_bn {
+    border: 1px solid #ccc;
+    width: 30px;
+}
+
+.attach_bn .upload_btn{
+    width: 27px;
+    height: 20px;
+}
+.combox_box-cc-cus {
+    .slds-listbox__item {
+        margin: 3px;
+    }
+}
+.email_cc {
+    color: #0070d2;
+    float: right;
+    z-index: 9001;
+    border: none;
+    height: 20px;
+    padding-right: 5px;
+}
+.email_cc:hover {
+    background-color: transparent;
+}
+.email_cc:focus {
+    box-shadow: none;
+}
+/*
+* Editor css overwrite
+*/
+.editor_custom_box {
+    .rdw-image-modal {
+        position: absolute !important;
+        top: 35px !important;
+        right: 5px !important;
+        left: -150px !important;
+    }
+    .rdw-link-wrapper[aria-label=rdw-link-control] {
+        .rdw-link-modal {
+            height: 275px
+        }
+
+        #openLinkInNewWindow {
+            width: 13px;
+            height: 13px;
+            border-radius: 0px;
+            border-color: #000;
+            -webkit-appearance: checkbox !important;
+        }
+    }
+
+    .rdw-block-wrapper[aria-label=rdw-block-control] {
+        width: 105px;
+    }
+}

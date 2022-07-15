@@ -1,0 +1,47 @@
+.help_tree {
+    width: 20%;
+    float: left;
+    border-right: 2px #333 solid;
+}
+.help_content {
+    width: 60%;
+    float: left;
+}
+.help_related {
+    width: 20% !important;
+    float: left;
+    max-height: 100% !important;
+    display: flex;
+    flex-flow: column wrap;
+    background: #fff;
+    height: auto !important;
+}
+.help_related h3{
+    margin: 16px 0px;
+    color: #7c7c7c;
+}
+.help_tree .slds-section__content p {
+    padding: 12px 0px 12px 24px;
+}
+.help_tree .slds-section__content p > a:hover{color: #333 !important;}
+.help_content .help_title { margin: 12px 12px 12px 5px; font-size: 22px;}
+.help_changed,.help_body{margin: 12px;color: #8a8a8a;}
+.help_breadcrumb{margin: 12px; color: #616161;}
+.help_body p{line-height: 19px;}
+.help_content a, .help_related a, .breadcrumb_title{color: #006dcc;}
+.help_content .file-size{display:none;}
+.help_tree,.help_content,.help_related{background: #fff;}
+.help_tree .slds-section__title {background: transparent; font-size: 14px !important;}
+.help_tree .slds-section__title-action, .help_tree .slds-section__title-action:hover {background: none;}
+.help_related a{ padding: 8px;}
+.help_related li {line-height: 22px;}
+.help_dashboard {display: flex;
+  flex-flow: column wrap;
+  background: #fff;
+}
+.help_tree p a{ color: #6d6d6d;}
+.help_tree p a:hover{text-decoration: underline !important;}
+.slds-no-parent{font-weight: bold; padding-left: 24px;}
+.help_tree h3.slds-section__title{color: #1e1e1e; font-weight: normal;}
+.help_changed a{font-weight: bold; float: right;}
+// .help_tree .slds-button:focus{box-shadow: none;}

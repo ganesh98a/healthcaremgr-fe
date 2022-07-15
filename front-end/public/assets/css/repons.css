@@ -1,0 +1,332 @@
+@media screen and (max-width: 1550px) and (min-width: 768px) {
+    .nav.Category_tap>li>a,.but_Change,a.but,input.but, a.but, .but, button.but,.but_one,.text_app,.but_submit, .H_B_1{
+    display: inline-flex;padding: 6px 3px;width: 100%;justify-content: center;align-items: center;font-size: 15px;min-height: 35px;}
+    .ConH_Btn i::before{height: 27px;font-size: 22px;}
+   .font_w_1 h4.panel-title ul li:first-child, 
+    .font_w_1 h4.panel-title ul li:nth-child(2), .font_w_1 h4.panel-title ul li:last-child, 
+    .font_w_1 .panel-body, label, .call_hist td span, .call_hist td, .col-md-9.f, .col-md-3.f, 
+    .user_profile ul li, .accordion_member ul li:first-child, .accordion_member ul li:last-child, table.Quali_table tbody tr td, 
+    table.Quali_table tbody tr td:first-child, .dtr-data h4, .Resi_details span, .Resi_details span font, .resident_name,
+    .cont_heading, .cont_heading font, .Par_care_ac table td:nth-child(2), 
+    .Par_care_ac table td:nth-child(3)
+    {font-size: 16px}
+    .icon.icon-add-icons.create_add_but::before{font-size: 27px;}
+    h1{font-size: 30px; line-height: 30px;}
+    .radi_2 h2.cl_black{font-size: 20px;}
+    .myLegend h4{margin-bottom: 0px;
+    /* .listing_table .ReactTable .rt-thead .rt-th{padding: 8px 10px;} */
+    .Tb_icon_L1{font-size: 20px;}
+    .Tb_icon_P1{font-size: 18px;}
+    /* .listing_table i.icon.icon-views:before{font-size: 20px;} */
+    /* .listing_table .ReactTable.-striped .rt-tr.-odd{min-height: 52px;} */
+    input{line-height: 35px;height: 35px;}
+    .add_i_icon .icon-add-icons:before {font-size: 27px;padding: 4px 4px 3px 4px;display: inline-flex;}
+    .add_input button i.icon_cancel_1 {font-size: 23px;}
+    .add_input button {top: 0px;right: 0; padding-right: 4px; padding-top: 0px; height: 35px;}
+    /* .landing_graph li{padding:7px;} */
+    .Unot_A{min-height: 35px;}
+    .accordion_me ul li{padding: 9px 10px;}
+
+ 
+
+
+    header{padding: 3px 0px;}
+
+    .Modal_A .text{font-size: 18px;}
+    .schedule_listings .ReactTable .rt-thead .rt-resizable-header-content,
+    .schedule_listings .ReactTable .rt-th, 
+    .schedule_listings .ReactTable .rt-td{/* line-height: 35px; */ line-height: 40px;}
+
+ 
+    /* .folder_tab .but_around_second li{padding-top: 0px;} */
+    /* span.circle_but {font-size: 54px;width: 80px;height: 80px;} */
+    /* span.add_access{width: 60px;height: 60px;line-height: 60px;font-size: 45px;} */
+    .shifts_deetails i.update_button:before{font-size: 24px;}
+    .cbtn_i i{padding: 0px;}
+
+    .row.your [class*='col-']{height: 200px;}
+    a .Ext_1, a .Int_1{font-size: 70px;}
+    .Imail_btn_left_v1 i, .Imail_btn_right_v1 i, .mess_V_1 .nav_apps span.add_access, .Imail_btn_left_v1 .upload_btn .btn-file{height: 35px; width: 35px;}
+
+    .gradient_color .User span{width: 170px; height: 170px;}
+    .gradient_color .User span img{width: 100px;}
+    .gradient_color .input_3{height: 40px;}
+    .gradient_color .but_login {min-height: 40px;font-size: 17px;}
+    .gradient_color .Smiley h1{font-size: 30px;}
+    .gradient_color .login_1{margin: 50px 0px 0px;}
+   
+
+    .header_search .Select-input > input {height: 26px !important;line-height: 26px !important;font-size: 14px;}
+    .but_search{font-size: 17px;}
+
+    .success-cartoon input.radio_input[type=radio ]:not(old) + label > span, 
+    .success-cartoon input.radio_input[type=radio]:not(old):checked + label > span > span, 
+    .worning-cartoon input.radio_input[type=radio ]:not(old) + label > span, 
+    .worning-cartoon input.radio_input[type=radio]:not(old):checked + label > span > span, 
+    .danger-cartoon input.radio_input[type=radio ]:not(old) + label > span, 
+    .danger-cartoon input.radio_input[type=radio]:not(old):checked + label > span > span{width: 35px; height: 35px;}
+    input.radio_input[type=radio ]:not(old) + label > span{background-size:35px !important; }
+    .success-cartoon, .worning-cartoon, .danger-cartoon {width: 36px;height: 36px;margin: 5px 11%;}
+    .h-45 {height: 416px;}
+    .icon_cancel_1 {font-size: 20px;}
+
+    .schedule_listings .ReactTable .rt-th, .schedule_listings .ReactTable .rt-td,  .schedule_listings .other_conter li{font-size: 15px;}
+    .user_info li{font-size: 18px;}
+    .shifts_deetails tr td, .booking_details_parent .text_child{font-size: 15px;}
+    .ReactTable .-pagination .-pageInfo {height: 35px;line-height: 35px;}
+    div.ReactTable .-pagination .-pageInfo, div.ReactTable .-pagination .-pageSizeOptions{margin: 0px 10px;}
+    .ReactTable .-pagination select { height: 33px;}
+    .pagination-bottom span.icon.next, .pagination-bottom span.icon.privious{height: 35px; width: 35px; font-size: 15px;}
+    .Pass_Ma1{margin-top: 30px;}
+    .active_user{font-size: 15px;}
+    .Imail_Img_div_1 {width: 30px;height: 30px;}
+    .Imail_MSG_div {padding: 15px 10px;}
+    .left_menu_content{margin-top: 17%;}
+    .active_user {padding: 10px 14px 7px; min-height: 40px}
+    .Modal_A.Modal_B.M_Modal_size .modal-dialog {width: 650px;}
+    .landing_graph .radi_2 h2.cl_black {margin-top: 7px;padding-bottom: 7px;}
+    h4.clr2, h4.clr1 {font-size: 15px;}
+    div.Select-control {height: 36px;}
+    /* span.icon::before, i.icon::before  {padding-top: 1px;margin-top: -1px;} */
+    i.icon_cancel_1::before{padding-top: 2px;}
+    button.add_i_icon i { display: inline-flex;}
+    .button_unadd i::before {padding: 7px 7px 7px 7px;font-size: 20px;}
+    ul.file_down li {width: 19.5%;}
+    ._Common_He_a{padding: 15px 0px;}
+
+   
+  
+    /*Start counter */
+    .counter_lines {background-size: 51px;}
+    .counter_text {padding: 0 10px 0 9px;letter-spacing: 15px;font-size: 64px;width: calc(100% - 18px);}
+
+
+    /*end counter */
+
+    .input_plus__ button{
+        width: 30px;
+        height: 30px;
+    }
+   .input_plus__  .Add-1 {
+        font-size: 27px;
+        padding-top: 0px;
+    }
+    .input_plus__ .Add-2 {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+    .button_plus__ {
+        width: 36px;
+        height: 36px;
+    }
+    .button_plus__  .Add-2-1 {
+        font-size: 27px;
+        padding-top: 0px;
+    }
+    .button_plus__ .Add-2-2 {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 1199px) and (min-width: 100px) {
+    .nav_apps div {
+        margin-left: 4px;
+        margin-bottom: 10px;
+        margin-right: 4px;
+    }
+    /* .nav_apps span.add_access {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        font-size: 26px;
+    } */
+
+    /* #sidebar-wrapper,
+    #sidebar-wrapper_new, #sidebar-wrapper_new_new{width: 196px;} */
+    #wrapper.toggled{padding-left: 0px;}
+    #wrapper.toggled_new{margin-right: 0px;}
+    div.modal-lg {
+        width: 96%;
+    }
+   
+
+    /*************/
+
+
+
+    .pb-4, .py-4{padding-bottom: 1rem;}
+    .mt-5 {margin-top: 1.5rem;}
+    .my-5 {margin-top: 1.5rem; margin-bottom: 1.5rem;}
+    .mb-5 {margin-bottom: 1.5rem;}
+    .mb-4 {margin-bottom: 1rem;}
+    .mt-4 {margin-top: 1rem;}
+    .my-4 {margin-top: 1.5rem;margin-bottom: 1.5rem;}
+    .mt-3 {margin-top: 0.5rem;}
+    .mb-3 {margin-bottom: 0.5rem;}
+
+    .row.your [class*='col-'] {height: 170px;border-radius: var(--b-radius);}
+    a .Ext_1, a .Int_1 {font-size: 60px;}
+    h1 {font-size: 24px;line-height: normal;}
+    a.Plus_button {padding: 2px 2px 0px;}
+
+    /* Select */
+    /* div.Select-control {height: 30px;}
+    div.Select-input {height: 28px;} */
+    /* .Select-control .Select-placeholder, .Select--single > .Select-control .Select-value,
+    .default_validation .Select-control .Select-multi-value-wrapper .Select-input input{height: 30px;line-height: 30px;} */
+    
+
+    .back_arrow::before {font-size: 20px;}
+    .back_arrow a{display: flex;flex-wrap: wrap;width: 25px;max-width: 25px;}
+    .Select-arrow::before{top: -7px;margin-left: -8px;font-size: 12px;}
+   .box_wide .Select-arrow::before {top: -7px;margin-left: -8px;font-size: 12px;}
+    .Select.is-open > .Select-control .Select-arrow::before,
+    .box_wide .Select.is-open > .Select-control .Select-arrow::before{top: -5px;margin-left: -8px;font-size: 12px;}
+
+    .modify_select .Select-arrow::before {top: -10px;margin-left: -13px;font-size: 18px;}
+    .modify_select .Select.is-open > .Select-control .Select-arrow::before{top: -7px;margin-left: -13px;font-size: 18px;}
+ 
+
+    /* react table */
+    /* .listing_table .ReactTable .rt-thead .rt-th {padding: 6px 7px;}
+    .listing_table .ReactTable.-striped .rt-tr.-odd,
+    .listing_table .ReactTable.-striped .rt-tr.-even {min-height: 30px;}
+    .listing_table i.icon.icon-views:before{font-size: 17px;} */
+    .pagination-bottom span.icon.next, .pagination-bottom span.icon.privious {height: 30px;width: 30px;font-size: 12px;}
+    .ReactTable .-pagination .-pageJump input {height: 30px;}
+    .ReactTable .-pagination select {height: 28px;}
+
+    .nav.Category_tap>li>a, .but_Change, a.but, input.but, a.but, .but, button.but, .but_one, .text_app, .but_submit, .H_B_1{padding: 4px 5px; display: flex; align-items: center; justify-content: center;}
+  
+
+    .schedule_listings .ReactTable .rt-thead .rt-resizable-header-content, .schedule_listings .ReactTable .rt-th, .schedule_listings .ReactTable .rt-td { /* line-height: 30px;  */line-height: 40px;}
+    .schedule_listings .ReactTable .rt-th, .schedule_listings .ReactTable .rt-td, .schedule_listings .other_conter li {font-size: 13px;}
+    /****&&******/
+
+    input {line-height: 30px;height: 30px;}
+    .Imail_btn_left_v1 i, .Imail_btn_right_v1 i, .mess_V_1 .nav_apps span.add_access, .Imail_btn_left_v1 .upload_btn .btn-file {height: 30px;width: 30px;}
+    .Imail_btn_left_v1 i {margin-right: 5px;}
+    .Imail_btn_left_v1 i, .Imail_btn_right_v1 i{font-size: 14px;}
+    .add_input button i {font-size: 26px;}
+    .add_i_icon .icon-add-icons:before {font-size: 23px;}
+    .nav.Category_tap>li>a, .but_Change, a.but, input.but, a.but, .but, button.but, .but_one, .text_app, .but_submit, .H_B_1{min-height: 30px;}
+   
+    .Tb_class_d1 span{align-items: center;}
+    .Tb_icon_L1 {font-size: 17px;display: flex;}
+    .Tb_icon_P1 {font-size: 17px;}
+
+    .ConH_Sear input {height: 40px;line-height: 40px;}
+    i.icon_cancel_1::before {padding-top: 3px;}
+    .add_input button i.icon.icon-add-icons,
+    .add_input button{height: auto;}
+    .add_input button i.icon_cancel_1 {font-size: 20px;}
+    button.add_i_icon i { display: inline-flex;}
+    .button_unadd i::before {padding: 7px 7px 7px 7px;font-size: 17px;}
+    .icon_h-1:before{font-size: 24px;}
+    input.checkbox1[type="checkbox"] + label span, input.checkbox_m_play[type="checkbox"] + label span{height: 17px; width: 17px; margin: -4px 7px 0 10px}
+
+    .font_w_1 h4.panel-title ul li:first-child, .font_w_1 h4.panel-title ul li:nth-child(2), .font_w_1 h4.panel-title ul li:last-child, 
+    .font_w_1 .panel-body, label, .call_hist td span, .call_hist td,  .col-md-9.f, .col-md-3.f, .user_profile ul li, .accordion_member ul li:first-child, 
+    .accordion_member ul li:last-child, table.Quali_table tbody tr td, table.Quali_table tbody tr td:first-child, .dtr-data h4, .Resi_details span, .Resi_details span font, 
+    .resident_name,
+    .cont_heading, .cont_heading font, .Par_care_ac table td:nth-child(2), .Par_care_ac table td:nth-child(3){font-size: 14px;}
+
+    ul.file_down li { width: 24.5%;}
+    aside ul.side_menu li a{padding: 15px 10px;}
+    .Modal_A .six_digit input{line-height: 30px; height: 30px;}
+
+    .back_arrow.py-4 span {font-size: 20px;}
+    .back_arrow.py-4 {padding: 8px 0px;}
+    /* .landing_graph{margin-top: 5vh;} */
+
+    /*** imail ***/
+    .Internal_M_D .mess_V1_1:last-child {padding-bottom: 10px;}
+    .Internal_M_D .mess_V1_1:first-child {padding-top: 10px;}
+    .mess_V1_1 {padding: 7px 10px;}
+    .mess_v1{padding: 10px;}
+    .mess_V_1 span{height: 35px;width: 35px;}
+    .mess_V_1 .nav_apps{padding: 0px;}
+    .mess_V_b {width: 50px;}
+    .Internal_M_D_3,
+    .Internal_M_D {height: 420px;}
+  
+   
+    .colorPicker{padding: 6px;height: 30px;}
+    .mess_div_scroll {height: 350px;}
+    .Internal_M_D_2 {height: 425px;}
+    .Internal_M_D_2 .mess_V1_1 {padding-top: 10px;padding-bottom: 10px;}
+    .textarea_height_3 {height: 180px;}
+    .mess_vn_2 .attach_im, .mess_vn_2 .warning-im, .mess_vn_2 .flag-im{font-size: 16px;}
+    .compose_scroll {display: flex;flex-wrap: wrap;width: 100%;height: 373px;overflow: scroll;}
+    .U_btn_new a{height: 30px;}
+    .panel-title a i{font-size: 14px;}
+    .btn-file {height: 30px;}
+    .customModal .Information_modal,
+    .Modal_A.Modal_B.O_Modal_size .modal-dialog { width: 90%;}
+    .Modal_B .modal-dialog{ width: 70%}
+
+
+    .gradient_color .input_3{height: 35px;}
+    .gradient_color .but_login {padding: 0px;height: 35px;min-height: 35px;font-size: 17px;}
+    .gradient_color .login_1{margin: 30px 0px;}
+    ._Common_He_a{padding: 10px 0px;}
+
+    .main_sidebar__{
+        width: 195px;
+    }
+    .asideSect__{
+        padding-left: 210px;
+    }
+    .input_plus__ button{
+        width: 27px;
+        height: 27px;
+    }
+   .input_plus__  .Add-1 {
+        font-size: 24px;
+        padding-top: 0px;
+    }
+    .input_plus__ .Add-2 {
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    .button_plus__ {
+        width: 30px;
+        height: 30px;
+    }
+    .button_plus__  .Add-2-1 {
+        font-size: 24px;
+        padding-top: 1px;
+    }
+    .button_plus__ .Add-2-2 {
+        font-size: 18px;
+        padding-top: 0px;
+    }
+    .sideNavies__ .Sub_in_sub li a {
+        padding-bottom: 3px;
+        padding-top: 3px;
+    }
+
+    /* .box_wide  .Select-control .Select-placeholder, 
+    .box_wide   .Select--single > .Select-control .Select-value,
+    .box_wide  .default_validation .Select-control .Select-multi-value-wrapper .Select-input input{
+        height: 20px;
+        line-height: 20px !important;
+    } */
+
+}
+
+@media screen and (max-width: 992px) and (min-width: 100px) {
+.AL_flex{flex-wrap: wrap;}
+.Graph_flex,
+._Common_Search_a{flex-wrap: wrap;}
+/* .landing_graph li{
+    width: 32%;
+} */
+.landing_graph_item_2  li{
+    width: 50%;
+}
+}

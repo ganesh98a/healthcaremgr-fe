@@ -1,0 +1,62 @@
+.user-data-import{
+    background: #f6f6f6;
+    margin-top: 3%;
+
+    .icon-download3-ie{
+        font-size: 15px;
+        padding: 3px;
+    }
+    label{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .column-header-wrapper {
+        background-color: #f3f3f3;
+        border: 1px solid #ccc;
+        padding: 5px;
+    }
+    .rows{ padding: 7px;}
+    .csv-title{
+        border-bottom: 2px solid #dddbda;
+        padding-bottom: 12px;
+        color: #dddbda;
+        text-align : center;
+    }
+    .File-Drag-and-Drop_bOX > div {
+        background: #f3f3f3;
+        border: 1px solid #dddbda;
+    }
+    .File-Drag-and-Drop_bOX > div .Drop_bOX_content_1{
+        justify-content :center;
+    }
+    .File-Drag-and-Drop_bOX > div .Drop_bOX_content_1 i {
+        font-size : 90px;
+    }
+    .File-Drag-and-Drop_bOX > div .Drop_bOX_content_1 span h3 {
+        font-size: 26px;
+        color: #dddbda;
+    }
+    .confirm_btn {position: relative; float: right;}
+    .Drop_bOX_content_1, .Drop_bOX_content_2{text-align: center; color: #0070d2;}
+    .text-input-id-1{font-weight: normal;}
+    .text-input-id-2{font-weight: bold;}
+    .import-container{
+        background: #fff;
+        padding: 12px;
+        border: 1px #ccc solid;
+        border-radius: 5px;
+    }
+    
+    @media only screen and (max-width: 800px) {
+        .import-item-select{ text-align: center;}
+      }
+      @media only screen and (min-width: 800px) {
+        .import-item-select{ text-align: center;position: relative;left: 10%;}
+      }
+      @media screen and (max-width: 1550px) and (min-width: 768px)
+      {
+        .import-item-select{ text-align: center;position: unset;}
+      }
+
+
+}

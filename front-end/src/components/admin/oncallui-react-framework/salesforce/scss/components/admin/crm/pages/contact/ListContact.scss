@@ -1,0 +1,49 @@
+.ListContact {
+    .ListContactActions {
+        a {
+            margin-right: 5px;
+        }
+    }
+}
+
+.slds-tbl-roles .slds-more-action-dropdown.slds-dropdown,
+ .slds-tbl-roles .slds-more-action-dropdown.slds-dropdown {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  max-width: 150px !important;
+  width: 100%;
+  overflow: auto;
+  right: inherit !important;
+  min-width: 150px !important;
+}
+.slds-tbl-roles .rt-tbody,
+.slds-tbl-roles.rt-table{
+  overflow:visible !important;
+}
+.slds-tbl-roles .rt-th, .slds-tbl-roles .rt-td{
+  overflow:visible !important;
+}
+
+.filter-logic-error {
+  color: red
+}
+
+.body-no-padding {
+  padding: 0px;
+  margin: 0px;
+}
+
+.custom-card-footer {
+  padding: 0.75rem 1rem;
+  text-align: center;
+  font-size: 0.8125rem;
+}
+.linkclr a{
+  color:rgb(0, 112, 210);
+}
+
+.errorsize .filter-logic-error {
+  color: red;
+  font-size: 12px;
+}

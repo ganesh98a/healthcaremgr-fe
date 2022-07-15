@@ -1,0 +1,45 @@
+.custom_date{ .date-picker-main {
+    .arrow-btn {
+        background: none;
+        color: #000;
+        padding: 2px 10px;
+        border-radius: 10px;
+        border: 0px;
+    }
+    .drop-down{
+        width: 80%;
+    }
+    .drop-down-in {
+        display: inline-block;
+    }
+    
+   
+}
+// .custom_date {
+    .react-datepicker__input-container {
+        input{
+            height: 30px;
+            border: 1px solid #ccc
+        }
+    }
+    .cust_date_picker {
+        width: 85% !important;
+    }
+
+
+.csform-group .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .csform-group .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before, .cust_date_picker .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle, .cust_date_picker .react-datepicker-popper[data-placement^="bottom"] .react-datepicker__triangle::before {
+    border-bottom-color: #05adee !important;
+}
+.react-calendar .react-datepicker__day-name {
+        color: #000 !important;
+}
+.react-calendar  .react-datepicker .react-datepicker__day--keyboard-selected, .react-datepicker .react-datepicker__header {
+        background: #fff !important;
+        background-color: #fff !important;
+}
+
+.react-calendar .csform-group .react-datepicker__day--selected, .csform-group .react-datepicker__day--in-selecting-range, .csform-group .react-datepicker__day--in-range, .cust_date_picker .react-datepicker__day--selected, .cust_date_picker .react-datepicker__day--in-selecting-range, .cust_date_picker .react-datepicker__day--in-range {
+    background: #05adee !important;
+}
+
+}

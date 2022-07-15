@@ -1,0 +1,38 @@
+div.field-history-feed.slds-feed {
+    article.slds-post {
+        div.slds-post__content {
+            border: 1px solid #dddbda;
+            padding: 1rem;
+            border-radius: 4px;
+            ul {
+                list-style-type: none;
+                margin-left: 0;
+            }
+        }
+    }
+}
+.slds-li-border-bot {
+    border-bottom: 1px solid #ccc;
+}
+
+.slds-history-title-max-wid {
+    max-width: 90%
+}
+
+@media (min-width: 320px) {
+    .slds-post-bor-top {
+        border-top: none !important;
+    }
+    .slds-history-title-max-wid {
+        max-width: 75%;
+    }
+}
+
+@media (min-width: 480px) {
+    .slds-post-bor-top {
+        border-top: none !important;
+    }
+    .slds-history-title-max-wid {
+        max-width: 75%;
+    }
+}

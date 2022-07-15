@@ -1,0 +1,24 @@
+// WARNING: 
+// Never put any global styling here or else you'll risk ruining the styling of other React components
+// Make your styling as 'scoped' as possible
+
+#ReviewAnswerStage {
+    #ReviewAnswerStage-view_answers_parent {
+        border-right: 1px solid grey;
+        padding-right: 10px;
+    }
+    
+    a#ReviewAnswerStage-view_answers {
+        text-decoration: underline !important;
+    
+        &:hover {
+            color: #05adee;
+            color: var(--bg-color);
+        }
+    }
+
+    #ReviewAnswerStage-modal_header {
+        grid-template-columns: '1fr 1fr';
+    }
+
+}

@@ -1,0 +1,13 @@
+.DateOfBirthDatePickerCalendar.react-datepicker {
+    font-size: 13px !important;  // '!important' rule is necessary because datepicker.scss has lots of global stylings with !important.
+
+    .react-datepicker.DateOfBirthDatePickerCalendar {
+        font-size: 13px;
+    }
+
+    .react-datepicker__day-name, .react-datepicker__day, .react-datepicker__time-name {
+        font-size: 13px;
+        width: 32px !important; // '!important' rule necessary because datepicker.scss has lots of global stylings with !important.
+        line-height: 32px;
+    }
+}

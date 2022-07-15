@@ -1,0 +1,96 @@
+
+.Gender_chart__{padding:5px 15px 15px 15px;background:#f6f6f6}
+.Gender_chart__{display:flex;flex-direction:column}
+.Gender_title__{display:flex}
+.Gender_title__{display:flex;min-height:40px;align-items:center;border-bottom:1px solid var(--b-color)}
+.Gender_title__ .G_t0_:first-child{border-right:1px solid var(--b-color);color:var(--bg-color)}
+.Gender_title__ .G_t0_:nth-child(2n){color:var(--crm-success_color)}
+.Gender_title__ .G_t0_{flex-basis:50%;text-align:center;min-height:40px;display:flex;align-items:center;justify-content:center;font-weight:600}
+.Gender_grhap_{display:flex;flex-direction:row}
+.male_per__{display:flex;height:22px;flex-basis:50%}
+.male_per__{display:flex;height:22px;flex-basis:50%;justify-content:flex-end}
+.female_per__{display:flex;height:22px;flex-basis:50%;justify-content:flex-start}
+.male_per__>div{background:var(--bg-color);position:relative}
+.female_per__>div{background:var(--crm-success_color);position:relative}
+.Gender_agge_{display:flex;justify-content:center;font-size:15px;margin:4px 0;font-weight:600;color:var(--b-color)}
+.Gender_list01_:first-child{margin-top:20px}
+.Gender_list01_{margin-bottom:20px}
+.male_per__ .custom_tooltip__{position:absolute;width:auto;display:flex;background:#fff;min-height:35px;flex-direction:column;font-size:13px;padding:5px;border:1px solid var(--b-color);top:-51px;width:115px;left:-115px}
+.custom_tooltip01__{font-size:12px}
+.custom_tooltip02__>span:first-child{font-weight:600}
+.custom_tooltip01__>span:first-child{font-weight:600}
+.custom_tooltip02__{font-size:11px;display:flex;align-items:center}
+.male_per__ .custom_tooltip__::before{content:'';border-left:8px solid transparent;border-top:10px solid #992bff;position:absolute;right:-1px;bottom:-10px;transform:rotate(-7deg);z-index:0}
+.female_per__ .custom_tooltip__::before{content:'';border-left:10px solid transparent;border-top:8px solid var(--crm-success_color);position:absolute;left:-3px;bottom:-9px;transform:rotate(278deg);z-index:0}
+.female_per__ .custom_tooltip__{position:absolute;width:auto;display:flex;background:#fff;min-height:35px;flex-direction:column;font-size:13px;padding:5px;border:1px solid var(--crm-success_color);top:-51px;width:115px;right:-115px; z-index: 1;}
+.male_per__ .custom_tooltip__{display:none}
+.female_per__ .custom_tooltip__{display:none}
+.male_per__>div:hover .custom_tooltip__{display:block}
+.female_per__>div:hover .custom_tooltip__{display:block}
+.perAlignment div div span{margin-top:-10px}
+.perAlignment div{position:relative}
+.perAlignment .male_per__ div span{top:-7px;position:absolute;font-size:12px;font-weight:600;right:0}
+.perAlignment .female_per__ div span{bottom:-20px;position:absolute;font-size:12px;font-weight:600;left:0}
+.Gender_total_ .Gender_total01_{font-size:14px;margin-top:7px;font-weight:600}
+.Gender_total02_ .Gender_grhap_>div>div span{font-size:12px;margin:5px}
+.Gender_total02_ .male_per__ div span{color:#fff}
+.Gender_total02_ .female_per__ div span{color:var(--crm-Processing_color)}
+.custom_tooltip01__ span:first-child{color:var(--bg-color)}
+.custom_tooltip02__ span:first-child{color:var(--bg-color)}
+.Partt_d1_txt_2 u{word-break:break-all}
+
+
+.thread_P.active .male_per__>div{background: #ff5266 ;}
+.thread_P.active  .Gender_agge_,
+.thread_P.active  .male_per__ .custom_tooltip01__ span:first-child,
+.thread_P.active  .male_per__ .custom_tooltip02__ span:first-child,
+.thread_P.active .Gender_title__ .G_t0_:first-child,
+.thread_P.active .Gender_total02_ .female_per__ div span{color: #ff5266 ;}
+.thread_P.active .Gender_title__ .G_t0_:first-child{
+  border-right:1px solid #ff5266;
+}
+.thread_P.active .male_per__ .custom_tooltip__::before{
+  border-top-color: #ff5266;
+}
+.thread_P.active .male_per__ .custom_tooltip__,
+.thread_P.active .Gender_title__,
+.thread_P.active .Gender_total_.bt-1{
+  border-color: #ff5266;
+}
+.thread_P.active .female_per__>div{background: #f78c98 ;}
+.thread_P.active .Gender_title__ .G_t0_:nth-child(2n),
+.thread_P.active  .female_per__  .custom_tooltip01__ span:first-child,
+.thread_P.active  .female_per__  .custom_tooltip02__ span:first-child{color: #f78c98;}
+.thread_P.active .female_per__ .custom_tooltip__{
+  border-color: #f78c98;
+}
+.thread_P.active .female_per__ .custom_tooltip__::before{
+  border-top-color: #f78c98;
+}
+.Private_M.active .male_per__>div{background: #4a7dd6 ;}
+.Private_M.active  .Gender_agge_,
+.Private_M.active  .male_per__ .custom_tooltip01__ span:first-child,
+.Private_M.active  .male_per__ .custom_tooltip02__ span:first-child,
+.Private_M.active .Gender_title__ .G_t0_:first-child,
+.Private_M.active .Gender_total02_ .female_per__ div span{color: #4a7dd6 ;}
+.Private_M.active .Gender_title__ .G_t0_:first-child{
+  border-right:1px solid #4a7dd6;
+}
+.Private_M.active .male_per__ .custom_tooltip__::before{
+  border-top-color: #4a7dd6;
+}
+.Private_M.active .male_per__ .custom_tooltip__,
+.Private_M.active .Gender_title__,
+.Private_M.active .Gender_total_.bt-1{
+  border-color: #4a7dd6;
+}
+.Private_M.active .female_per__>div{background: #6f9ef0 ;}
+.Private_M.active .Gender_title__ .G_t0_:nth-child(2n),
+.Private_M.active  .female_per__  .custom_tooltip01__ span:first-child,
+.Private_M.active  .female_per__  .custom_tooltip02__ span:first-child{color: #6f9ef0;}
+.Private_M.active .female_per__ .custom_tooltip__{
+  border-color: #6f9ef0;
+}
+.Private_M.active .female_per__ .custom_tooltip__::before{
+  border-top-color: #6f9ef0;
+}

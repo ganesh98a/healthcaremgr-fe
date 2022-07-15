@@ -1,0 +1,68 @@
+// make this styling scoped to avoid affecting other styles
+.slds-related-tab-details {
+    font-family: "Salesforce Sans", Arial, Helvetica, sans-serif;
+    font-size: 13;
+    
+    .slds-card-bor {
+        border: 1px solid #dddbda !important;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.1) !important;
+    }
+    
+    .slds-box-bg {
+        background: #fff;
+    }
+    
+    .sdls-timeline-subject {
+        font-size: 13px;
+    }
+
+    .SLDSReactTable.ReactTable .rt-noData {
+        vertical-align: middle;
+        background-color: white;
+        position: static;
+        width: 100%;
+        transform: none;
+        margin: 0;
+        line-height: 26px;
+    }
+    
+    .radio-btn-display {
+        display: inline-block !important;
+    }
+
+    .reset-col {
+        color: #0070d2;
+    }
+}
+
+.slds-tbl-card-td-link-hidden {
+    overflow:hidden !important;
+}
+
+.slds-tbl-card .slds-more-action-dropdown.slds-dropdown,
+ .slds-tbl-card .slds-more-action-dropdown.slds-dropdown {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  left: 0 !important;
+  top: 100% !important;
+  max-width: 150px !important;
+  width: 100%;
+  overflow: auto;
+  right: inherit !important;
+  min-width: 150px !important;
+  top: 100% !important;
+}
+.slds-tbl-card .rt-tbody,
+.slds-tbl-card.rt-table{
+  overflow:visible !important;
+}
+.slds-tbl-card-td-dd .rt-th, .slds-tbl-card-td-dd {
+  overflow:visible !important;
+}
+
+.SLDSISODatePicker {
+    .slds-dropdown-trigger {
+        width: 100%
+    }
+}

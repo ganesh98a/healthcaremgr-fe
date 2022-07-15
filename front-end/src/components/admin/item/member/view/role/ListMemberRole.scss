@@ -1,0 +1,37 @@
+.slds-tbl-roles .slds-more-action-dropdown.slds-dropdown,
+.slds-tbl-roles .slds-more-action-dropdown.slds-dropdown {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+    left: 0 !important;
+    top: 100% !important;
+    max-width: 150px !important;
+    width: 100%;
+    overflow: auto;
+    right: inherit !important;
+    min-width: 150px !important;
+    top: 100% !important;
+}
+.slds-tbl-roles .rt-tbody,
+.slds-tbl-roles.rt-table {
+    overflow: visible !important;
+}
+.slds-tbl-roles .rt-th,
+.slds-tbl-roles .rt-td {
+    overflow: visible !important;
+}
+
+.status_type
+{
+    display: table-cell;
+    right: 12px;
+    width: 165px !important;
+    position: relative;
+}
+.bu_type
+{
+    display: table-cell;
+    right: 17px;
+    width: 185px !important;
+    position: relative;
+}
